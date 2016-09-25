@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone='yes'?>
 <plate_variables>
-	<plate>Tutorial</plate>
-	<created_date>2016-06-07</created_date>
-	<modified_date>2016-06-07</modified_date>	
+	<plate>Brand Epicenter v1.0a</plate>
+	<created_date>2016-11-25</created_date>
+	<modified_date>2016-11-25</modified_date>	
 	<created_by>Zesty</created_by>
 	<kitchen>Blank</kitchen>
 	<variables>
@@ -14,13 +14,21 @@
 			<locked>0</locked>
 			<value><![CDATA[#ffffff]]></value>
 		</color>
-		<image name="body-bg-image" name_friendly="Body Background Image">		
+		<image name="homepage-header-image" name_friendly="Homepage Background Image">		
 			<category>1</category>
-			<description><![CDATA[Optional background image for the body of your website.]]></description>
-			<sort>10</sort>
+			<description><![CDATA[Homepage header background image.]]></description>
+			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[]]></value>
+			<value><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg]]></value>
+		</image>		
+		<image name="homepage-map-image" name_friendly="Homepage Map Image">		
+			<category>1</category>
+			<description><![CDATA[Background that is underneath the contact form.]]></description>
+			<sort>2</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png]]></value>
 		</image>
 		<dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">		
 			<category>1</category>
