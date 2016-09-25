@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+  <ingredients>
+    <templateset name="homepage" name_friendly="Homepage" view="homepage">
+      <fields>
+        
+        <text name="title1" name_friendly="Title (Section 1)" required="1" />
+        <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
+        <images name="image1" name_friendly="Image (Section 1)" limit="1" />
+        
+        <text name="section2_name" name_friendly="Section 2 Name (Single Word)" required="1" />
+        <text name="title2" name_friendly="Title Section 2" required="1" />
+        <wysiwyg_advanced name="content2" name_friendly="Content Section 2" />
+
+
+		<text name="section3_name" name_friendly="Section 3 Name (Single Word)" required="1" />
+		<text name="title3" name_friendly="Sub Title Section 3" required="1" />
+       	<text name="sub_title3" name_friendly="Title Section 3" required="1" />
+        <images name="image3" name_friendly="Image Section 3" limit="1" />
+
+		<text name="section4_name" name_friendly="Section 4 Name (Single Word)" required="1" />        
+        <text name="title4" name_friendly="Title (Section 4)" required="1" />
+        <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
+        <images name="image4" name_friendly="Image (Section 4 Background)" limit="1" />        
+       
+        
+      </fields>
+      <items>
+        <item link_title="Homepage" path_part="zesty_home">
+          
+          <title1><![CDATA[New Age is an app landing page for Bootstrap that will help you beautifully showcase your new mobile app, or anything else!]]></title1>
+          <button_text_1><![CDATA[Start Now For Free!]]></button_text_1>
+          <image1><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image1>
+          
+          <section2_name><![CDATA[download]]></section2_name>
+          <title2><![CDATA[Discover what all the buzz is about!]]></title2>
+          <content2><![CDATA[<p>Our app is available on any mobile device! Download now to get started!</p>]]></content2>
+          
+          <section3_name><![CDATA[features]]></section3_name>          
+          <title3><![CDATA[Unlimited Features, Unlimited Fun]]></title3>
+          <sub_title3><![CDATA[So Many Unlimited Features, So Much Unlimited Fun]]></sub_title3>
+          <image3><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image3>
+          
+          <section4_name><![CDATA[contact]]></section4_name>          
+          <title4><![CDATA[Stop waiting. Start building.]]></title4>
+          <button_text_4><![CDATA[Let's get Started!]]></button_text_4>
+          <image4><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-cta.jpg]]></image4>
+          
+        </item>
+      </items>
+    </templateset>
+    
+     <dataset name="social_links" name_friendly="Social Links">
+      <fields>
+        <text name="name" name_friendly="Social Media Name" required="1" list="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" list="1" required="1" />
+        <text name="url" name_friendly="Social Media Link" limit="1" list="1" />        
+      </fields>
+      <items>
+        <item>
+          <name><![CDATA[Facebook]]></name>
+          <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon> 
+          <url><![CDATA[https://www.facebook.com]]></url>
+        </item>
+        <item>
+          <name><![CDATA[Twitter]]></name>
+          <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon> 
+          <url><![CDATA[https://www.twitter.com]]></url>
+        </item>
+
+      </items>
+    </dataset>
+    <dataset name="home_page_bullets" name_friendly="Homepage Bullets">
+      <fields>
+        <text name="title" name_friendly="Title" required="1" list="1" />
+        <text name="short_blurb" name_friendly="Short Blurb" list="1" required="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon (Class Name)" required="1" />
+      </fields>
+      <items>
+        <item>
+          <title><![CDATA[Device Mockups]]></title>
+          <short_blurb><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></short_blurb>
+          <font_awesome_icon><![CDATA[mobile]]></font_awesome_icon> 
+        </item>
+        <item>
+          <title><![CDATA[Flexible Use]]></title>
+          <short_blurb><![CDATA[Put an image, video, animation, or anything else in the screen!]]></short_blurb>
+          <font_awesome_icon><![CDATA[object-ungroup]]></font_awesome_icon> 
+        </item>
+        <item>
+          <title><![CDATA[Free to Use]]></title>
+          <short_blurb><![CDATA[As always, this theme is free to download and use for any purpose!]]></short_blurb>
+          <font_awesome_icon><![CDATA[magic]]></font_awesome_icon> 
+        </item>     
+        <item>
+          <title><![CDATA[Open Source]]></title>
+          <short_blurb><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></short_blurb>
+          <font_awesome_icon><![CDATA[quote-right]]></font_awesome_icon> 
+        </item>                        
+      </items>
+    </dataset>
+  </ingredients>
+
+  <clippings>
+    <text name="site_name" name_friendly="Site Name" required="1">
+      <![CDATA[Bootstrap New Age]]>
+    </text>
+    <images name="logo" name_friendly="Site Logo" limit="1" />
+    <text name="footer_text" name_friendly="Footer Text">
+      <![CDATA[Zesty.io New Age Landing Page]]>
+    </text>
+  </clippings>
+
+  <head>
+    <doctype>html5</doctype>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js"></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//blackrockdigital.github.io/startbootstrap-new-age/vendor/device-mockups/device-mockups.min.css"/>
+    
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Kaushan+Script" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" />    
+	
+  </head>
+
+</plate>
