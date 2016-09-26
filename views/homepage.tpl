@@ -1,6 +1,6 @@
   <!-- Header -->
-    <header>      
-        <div class="container" style="background-image:url({{page.image1.getImage()}})">
+    <header style="background-image:url({{page.image1.getImage()}})">      
+        <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">{{page.title1}}</div>
                 <div class="intro-heading">{{page.subtitle1}}</div>
