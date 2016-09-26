@@ -5,6 +5,7 @@
       <fields>
         
         <text name="title1" name_friendly="Title (Section 1)" required="1" />
+        <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
         <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
         <images name="image1" name_friendly="Image (Section 1)" limit="1" />
         
@@ -28,8 +29,9 @@
       <items>
         <item link_title="Homepage" path_part="zesty_home">
           
-          <title1><![CDATA[New Age is an app landing page for Bootstrap that will help you beautifully showcase your new mobile app, or anything else!]]></title1>
-          <button_text_1><![CDATA[Start Now For Free!]]></button_text_1>
+          <title1><![CDATA[Product XYZ is about Lifestyle]]></title1>
+          <title1><![CDATA[Join in on the stories]]></title1>          
+          <button_text_1><![CDATA[Move on]]></button_text_1>
           <image1><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image1>
           
           <section2_name><![CDATA[download]]></section2_name>

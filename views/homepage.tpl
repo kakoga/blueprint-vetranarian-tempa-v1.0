@@ -1,10 +1,13 @@
   <!-- Header -->
-    <header>
+    <header>  <text name="title1" name_friendly="Title (Section 1)" required="1" />
+        <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
+        <images name="image1" name_friendly="Image (Section 1)" limit="1" />
+      
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{page.title1}}</div>
+                <div class="intro-heading">{{page.subtitle1}}</div>
+                <a href="#services" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
             </div>
         </div>
     </header>
