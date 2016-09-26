@@ -1,9 +1,6 @@
   <!-- Header -->
-    <header>  <text name="title1" name_friendly="Title (Section 1)" required="1" />
-        <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
-        <images name="image1" name_friendly="Image (Section 1)" limit="1" />
-      
-        <div class="container">
+    <header>      
+        <div class="container" style="background-image:url({{page.image1.getImage()}})">
             <div class="intro-text">
                 <div class="intro-lead-in">{{page.title1}}</div>
                 <div class="intro-heading">{{page.subtitle1}}</div>
