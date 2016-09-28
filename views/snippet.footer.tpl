@@ -1,31 +1,30 @@
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-	                
-                    <span class="copyright">&copy; {{site.date(Y)}} {{clippings.footer_text}}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                
+                <span class="copyright">&copy; {{site.date(Y)}} {{clippings.footer_text}}</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    {{each social_links as social}}
+		            <li class="social-{{social.font_awesome_icon}}">
+		                <a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
+		            </li>                
+		            {{end-each}}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li><a href="/privacy-policy/">Privacy Policy</a>
+                    </li>
+                    <li><a href="/terms-of-use/">Terms of Use</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 

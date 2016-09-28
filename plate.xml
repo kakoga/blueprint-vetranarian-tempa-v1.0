@@ -135,6 +135,21 @@
     </dataset>
   </ingredients>
 
+<templateset name="privacy-policy" name_friendly="Privacy Policy" view="privacy_policy">
+	<fields>
+		<text name="title" name_friendly="Title " required="1" />
+		<wysiwyg_advanced name="content" name_friendly="Content " />
+	</fields>
+	<items>
+		<item link_title="Privacy Policy" path_part="privacy-policy">  
+		  <title><![CDATA[Privacy Policy]]></title>
+		  <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
+		</item>
+	</items>
+</templateset>
+
+
+
   <clippings>
     <text name="site_name" name_friendly="Site Name" required="1">
       <![CDATA[Brand Epicenter]]>
