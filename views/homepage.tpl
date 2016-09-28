@@ -170,11 +170,18 @@
     <!-- Clients Aside -->
     <aside class="clients">
         <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+					<p class="large text-muted">{{page.title4}}</p>
+                </div>
+            </div>
             <div class="row">
+	            
+	            
 	            {{each featured_in as featured limit 4}}
 	            
                 <div class="col-md-3 col-sm-6">
-                    <a href="{{featured.url}}">
+                    <a target="_blank" href="{{featured.url}}">
                         <img src="{{featured.image.getImage()}}" class="img-responsive img-centered" alt="{{featured.name}}">
                     </a>
                 </div>
