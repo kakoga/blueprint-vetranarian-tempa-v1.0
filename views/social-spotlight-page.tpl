@@ -1,6 +1,6 @@
 
 <!-- Generic Page View -->
-<section>
+<section id="portfolio" class="bg-light-gray">
     <div class="container">
 	    <h1>{{page.title}}</h1>
 	    {{page.content}}
