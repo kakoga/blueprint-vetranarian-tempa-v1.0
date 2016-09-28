@@ -140,13 +140,13 @@
                 </div>
             </div>
             <div class="row">
-				{{each team_member as customer limit 3}}
+				{{each influencer as influencer limit 3}}
 				<div class="col-sm-4">
                     <div class="team-member">
-						<img src="{{customer.image.getImage()}}" class="img-responsive img-circle" alt="{{customer.name}} image">
-						<h4>{{customer.name}}</h4>
-						<p class="text-muted">{{customer.title}}</p>
-                        <ul class="list-inline social-buttons">
+						<img src="{{influencer.image.getImage()}}" class="img-responsive img-circle" alt="{{influencer.name}} image">
+						<h4>{{influencer.name}}</h4>
+						<p class="text-muted">{{influencer.title}}</p>
+                        (**<ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
@@ -154,6 +154,7 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
+                        **)
                     </div>
                 </div>
 				{{end-each}}
