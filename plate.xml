@@ -261,6 +261,11 @@
       <![CDATA[Join our Mailing List]]>
     </text>
     
+    <textarea name="form_text" name_friendly="Form Sub Text">
+      <![CDATA[Join our Story, find our product in these stores.]]>
+    </textarea>
+
+    
   </clippings>
 
   <head>
