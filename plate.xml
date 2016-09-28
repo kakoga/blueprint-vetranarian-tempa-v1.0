@@ -72,32 +72,64 @@
 
       </items>
     </dataset>
-    <dataset name="home_page_bullets" name_friendly="Homepage Bullets">
+
+    <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
       <fields>
-        <text name="title" name_friendly="Title" required="1" list="1" />
-        <text name="short_blurb" name_friendly="Short Blurb" list="1" required="1" />
-        <text name="font_awesome_icon" name_friendly="Font Awesome Icon (Class Name)" required="1" />
+        <text name="timeframe" name_friendly="Name of Feature Logo" required="1" list="1" />
+        <text name="title" name_friendly="Name of Feature Logo" required="1" list="1" />
+		<images name="image" name_friendly="Logo" limit="1" />
+        <textarea name="short_blurb" name_friendly="Short Blurb" list="1" />        
       </fields>
       <items>
         <item>
-          <title><![CDATA[Device Mockups]]></title>
-          <short_blurb><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></short_blurb>
-          <font_awesome_icon><![CDATA[mobile]]></font_awesome_icon> 
+          <name><![CDATA[NBC]]></name>
+          <image_logo><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></image_logo>
+          <url><![CDATA[mobile]]></url> 
         </item>
         <item>
-          <title><![CDATA[Flexible Use]]></title>
-          <short_blurb><![CDATA[Put an image, video, animation, or anything else in the screen!]]></short_blurb>
-          <font_awesome_icon><![CDATA[object-ungroup]]></font_awesome_icon> 
+          <name><![CDATA[CBS]]></name>
+          <image_logo><![CDATA[Put an image, video, animation, or anything else in the screen!]]></image_logo>
+          <url><![CDATA[object-ungroup]]></url> 
         </item>
         <item>
-          <title><![CDATA[Free to Use]]></title>
-          <short_blurb><![CDATA[As always, this theme is free to download and use for any purpose!]]></short_blurb>
-          <font_awesome_icon><![CDATA[magic]]></font_awesome_icon> 
+          <name><![CDATA[New York Times]]></name>
+          <image_logo><![CDATA[As always, this theme is free to download and use for any purpose!]]></image_logo>
+          <url><![CDATA[magic]]></url> 
         </item>     
         <item>
-          <title><![CDATA[Open Source]]></title>
-          <short_blurb><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></short_blurb>
-          <font_awesome_icon><![CDATA[quote-right]]></font_awesome_icon> 
+          <name><![CDATA[CrunchBase]]></name>
+          <image_logo><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></image_logo>
+          <url><![CDATA[quote-right]]></url> 
+        </item>                        
+      </items>
+    </dataset>
+
+    <dataset name="home_page_featured_in" name_friendly="Homepage Bullets">
+      <fields>
+        <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
+		<images name="image_logo" name_friendly="Logo" limit="1" />
+        <text name="url" name_friendly="Link (optional)" limit="1" list="1" />        
+      </fields>
+      <items>
+        <item>
+          <name><![CDATA[NBC]]></name>
+          <image_logo><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></image_logo>
+          <url><![CDATA[mobile]]></url> 
+        </item>
+        <item>
+          <name><![CDATA[CBS]]></name>
+          <image_logo><![CDATA[Put an image, video, animation, or anything else in the screen!]]></image_logo>
+          <url><![CDATA[object-ungroup]]></url> 
+        </item>
+        <item>
+          <name><![CDATA[New York Times]]></name>
+          <image_logo><![CDATA[As always, this theme is free to download and use for any purpose!]]></image_logo>
+          <url><![CDATA[magic]]></url> 
+        </item>     
+        <item>
+          <name><![CDATA[CrunchBase]]></name>
+          <image_logo><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></image_logo>
+          <url><![CDATA[quote-right]]></url> 
         </item>                        
       </items>
     </dataset>
@@ -110,6 +142,9 @@
     <images name="logo" name_friendly="Site Logo" limit="1" />
     <text name="footer_text" name_friendly="Footer Text">
       <![CDATA[Zesty.io Brand Epicenter]]>
+    </text>
+    <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">
+      <![CDATA[#brandepicenter]]>
     </text>
   </clippings>
 
