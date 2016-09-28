@@ -113,23 +113,23 @@
       <items>
         <item>
           <name><![CDATA[NBC]]></name>
-          <image_logo><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></image_logo>
-          <url><![CDATA[mobile]]></url> 
+          <image><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/2000px-NBC_logo.svg.png]]></image>
+          <url><![CDATA[https://www.nbc.com]]></url> 
         </item>
         <item>
-          <name><![CDATA[CBS]]></name>
-          <image_logo><![CDATA[Put an image, video, animation, or anything else in the screen!]]></image_logo>
-          <url><![CDATA[object-ungroup]]></url> 
+          <name><![CDATA[Amazon]]></name>
+          <image><![CDATA[http://static1.businessinsider.com/image/539f3ffbecad044276726c01-960/amazon-com-logo.jpg]]></image>
+          <url><![CDATA[https://www.amazon.com]]></url> 
         </item>
         <item>
-          <name><![CDATA[New York Times]]></name>
-          <image_logo><![CDATA[As always, this theme is free to download and use for any purpose!]]></image_logo>
-          <url><![CDATA[magic]]></url> 
+          <name><![CDATA[Walmart]]></name>
+          <image><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/New_Walmart_Logo.svg/2000px-New_Walmart_Logo.svg.png]]></image>
+          <url><![CDATA[https://www.walmart.com]]></url> 
         </item>     
         <item>
           <name><![CDATA[CrunchBase]]></name>
-          <image_logo><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></image_logo>
-          <url><![CDATA[quote-right]]></url> 
+          <image><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/CrunchBase.svg/1280px-CrunchBase.svg.png]]></image>
+          <url><![CDATA[https://www.crunchbase.com]]></url> 
         </item>                        
       </items>
     </dataset>
