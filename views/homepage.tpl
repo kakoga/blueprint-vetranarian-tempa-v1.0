@@ -4,7 +4,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">{{page.title1}}</div>
                 <div class="intro-heading">{{page.subtitle1}}</div>
-                <a href="#services" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
+                <a href="{{truepath(527)}}" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
             </div>
         </div>
     </header>
@@ -24,6 +24,12 @@
 				{{include social-loop}}
 				
 				{{end-each}}
+				
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+					<a href="{{truepath(501)}}" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
+                </div>
             </div>
         </div>
     </section>
