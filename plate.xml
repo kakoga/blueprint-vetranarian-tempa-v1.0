@@ -20,7 +20,7 @@
 		<text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
 		
         <text name="title4" name_friendly="Title (Section 4)" required="1" />       
-        <text name="sub_title3" name_friendly="Sub Title (Section 4)" required="1" />       
+        <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />       
        <text name="button_text_4" name_friendly="Button Text (Section 2)" required="1" />
         
       </fields>
