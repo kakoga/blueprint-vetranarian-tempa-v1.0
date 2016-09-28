@@ -261,16 +261,22 @@
     <text name="featured_title" name_friendly="Feature title">
       <![CDATA[Join our Story, find our product in these stores.]]>
     </text>
-    <text name="form_title" name_friendly="Form Title">
+    <text name="form_title" name_friendly="Form Title" required="1">
       <![CDATA[Join our Mailing List]]>
     </text>
     
-    <textarea name="form_text" name_friendly="Form Sub Text">
+    <textarea name="form_text" name_friendly="Form Sub Text" required="1">
       <![CDATA[Get emails weekly!]]>
     </textarea>
     <text name="form_webhook" name_friendly="Form Webhook (optional)">
       <![CDATA[]]>
     </text>
+    <text name="form_button_text" name_friendly="Form Button Text" required="1">
+      <![CDATA[Join]]>
+    </text>
+    
+    
+    
     
   </clippings>
 

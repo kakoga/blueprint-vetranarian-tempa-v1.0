@@ -33,7 +33,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" method="post" action="/thank-you/" id="contactForm" novalidate>
+                    <form name="sentMessage" method="post" action="/thank-you/" id="contactForm" validate>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
