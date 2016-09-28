@@ -171,8 +171,8 @@
     <aside class="clients">
         <div class="container">
               <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-					<p class="large text-muted">{{page.title4}}</p>
+                <div class="col-lg-12 text-center">
+					<h3 class="section-subheading text-muted">{{page.title4}}</h3>
                 </div>
             </div>
             <div class="row">

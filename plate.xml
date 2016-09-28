@@ -20,9 +20,7 @@
         <images name="image3" name_friendly="Image Section 3" limit="1" />
 
 		<text name="section4_name" name_friendly="Section 4 Name (Single Word)" required="1" />        
-        <text name="title4" name_friendly="Title (Section 4)" required="1" />
-        <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
-        <images name="image4" name_friendly="Image (Section 4 Background)" limit="1" />        
+        <text name="title4" name_friendly="Title (Section 4)" required="1" />       
        
         
       </fields>
@@ -30,23 +28,19 @@
         <item link_title="Homepage" path_part="zesty_home">
           
           <title1><![CDATA[Product XYZ is about Lifestyle]]></title1>
-          <title1><![CDATA[Join in on the stories]]></title1>          
+          <subtitle1><![CDATA[Join in on the stories]]></subtitle1>          
           <button_text_1><![CDATA[Move on]]></button_text_1>
           <image1><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg?raw=true]]></image1>
           
-          <section2_name><![CDATA[download]]></section2_name>
           <title2><![CDATA[Discover what all the buzz is about!]]></title2>
           <content2><![CDATA[<p>Our app is available on any mobile device! Download now to get started!</p>]]></content2>
-          
-          <section3_name><![CDATA[features]]></section3_name>          
+                   
           <title3><![CDATA[Unlimited Features, Unlimited Fun]]></title3>
           <sub_title3><![CDATA[So Many Unlimited Features, So Much Unlimited Fun]]></sub_title3>
           <image3><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image3>
           
-          <section4_name><![CDATA[contact]]></section4_name>          
-          <title4><![CDATA[Stop waiting. Start building.]]></title4>
-          <button_text_4><![CDATA[Let's get Started!]]></button_text_4>
-          <image4><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-cta.jpg]]></image4>
+
+          <title4><![CDATA[Available at these retailers]]></title4>
           
         </item>
       </items>
