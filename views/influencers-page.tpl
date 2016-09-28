@@ -17,20 +17,28 @@
 				<div class="team-wrap">	
 					<div itemprop="text">{{page.description}}</div>
 					<div class="team-members">
-						<div class="z-row">
+						<div class="row">
 						{{each influencer as influencer sort by influencer.sort asc}}
-							<div class="col-1/4" itemscope="" itemtype="http://schema.org/Person">
-								<a class="member" href="{{influencer.getUrl()}}" itemprop="url">
-									<img itemprop="image" class="z-responsive-width" src="{{influencer.image.getImage(600,600,crop)}}" />
-									<h4 itemprop="name">{{influencer.name}}</h4>
-									<span itemprop="jobTitle">{{influencer.title}}</span>
-								</a>
-							</div>
-						
+							<div class="col-md-4 col-sm-6 portfolio-item" temscope="" itemtype="http://schema.org/Person">
+								<a href="{{influencer.getUrl()}}" class="portfolio-link">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-plus fa-3x"></i>
+			                            </div>
+			                        </div>
+									<img itemprop="image" src="{{influencer.image.getImage(600,600,crop)}}" class="img-responsive" alt="{{influencer.name}},{{influencer.title}} ">
+			                    </a>
+			                    <div class="portfolio-caption">
+									<h4  itemprop="jobTitle"><a href="{{influencer.getUrl()}}">{{influencer.name}}</a>,{{influencer.title}} </h4>
+			                        
+			                    </div>
+			                </div>
+							
+													
 						(** logic to create perfect columns and rows **)
 						{{if {index} % 4 == 0}}
 						</div>
-						<div class="z-row">
+						<div class="row">
 						{{end-if}}
 						
 						{{end-each}}
