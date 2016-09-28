@@ -76,24 +76,22 @@
       </fields>
       <items>
         <item>
-          <name><![CDATA[NBC]]></name>
-          <image_logo><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></image_logo>
-          <url><![CDATA[mobile]]></url> 
+		  <timeframe><![CDATA[2010]]></timeframe>
+          <title><![CDATA[Johnny had an idea]]></title>
+          <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_1.jpg?raw=true]]></image>          
+          <short_blurb><![CDATA[The spark that started it all! Back in Seekonk, there was a racetrack.]]></short_blurb>
         </item>
         <item>
-          <name><![CDATA[CBS]]></name>
-          <image_logo><![CDATA[Put an image, video, animation, or anything else in the screen!]]></image_logo>
-          <url><![CDATA[object-ungroup]]></url> 
-        </item>
-        <item>
-          <name><![CDATA[New York Times]]></name>
-          <image_logo><![CDATA[As always, this theme is free to download and use for any purpose!]]></image_logo>
-          <url><![CDATA[magic]]></url> 
+	      <timeframe><![CDATA[2012-2015]]></timeframe>
+          <title><![CDATA[Product in production]]></title>
+          <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_2.jpg?raw=true]]></image>
+          <short_blurb><![CDATA[Design to blueprint, the machines were ready, they huffed and puffed and product was made.]]></short_blurb>
         </item>     
         <item>
-          <name><![CDATA[CrunchBase]]></name>
-          <image_logo><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></image_logo>
-          <url><![CDATA[quote-right]]></url> 
+          <timeframe><![CDATA[2015-Present]]></timeframe>
+          <title><![CDATA[We grow with you]]></title>
+          <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_3.jpg?raw=true]]></image>		  	
+          <short_blurb><![CDATA[We are now shipping thousands of gagets around the world, johnny is proud!]]></short_blurb>
         </item>                        
       </items>
     </dataset>
@@ -230,6 +228,9 @@
     </text>
     <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">
       <![CDATA[#brandepicenter]]>
+    </text>
+    <text name="featured_title" name_friendly="Feature title">
+      <![CDATA[Look for us in retail stores.]]>
     </text>
   </clippings>
 
