@@ -162,7 +162,7 @@
 				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-john_lennon_ny_1964.png]]></image>
 				<description><![CDATA[<p>John Winston Ono Lennon, MBE was an English musician, singer and songwriter who rose to worldwide fame as a founder member of the Beatles, one of the most commercially successful and critically acclaimed acts in the history of popular music.</p>]]></description>
 				<quote><![CDATA[<p>Life is what happens to you while you're busy making other plans.</p>]]></quote>
-				
+				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[1]]></sort>
 			</item>
 			<item link_title="George Harrison" path_part="george-harrison" parent="influencers">
@@ -180,7 +180,7 @@
 				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-paul_mccartney_ny_1964.png]]></image>
 				<description><![CDATA[<p>Sir James Paul McCartney, MBE is an English musician, singer, songwriter, multi-instrumentalist and composer.</p>]]></description>
 				<quote><![CDATA[<p>I used to think anyone doing anything weird was weird. Now I know that it is the people that call others weird that are weird.</p>]]></quote>
-				
+				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[3]]></sort>
 			</item>
 			<item link_title="Ringo Starr" path_part="ringo-starr" parent="influencers">
@@ -188,7 +188,9 @@
 				<title><![CDATA[Drummer]]></title>
 				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-ringo_starr_ny_1964.png]]></image>
 				<description><![CDATA[<p>Ringo Starr, MBE is an English musician, singer, songwriter and actor who gained worldwide fame as the drummer for the Beatles.</p>]]></description>
+
 				<quote><![CDATA[<p>Everything government touches turns to crap.</p>]]></quote>
+				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[4]]></sort>
 			</item>
 		</items>
