@@ -13,7 +13,6 @@
         <text name="title2" name_friendly="Title Section 2" required="1" />
 		<text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
 
-
 		
 		<text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
        	<text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
@@ -21,7 +20,7 @@
 		
         <text name="title4" name_friendly="Title (Section 4)" required="1" />       
         <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />       
-       <text name="button_text_4" name_friendly="Button Text (Section 2)" required="1" />
+       <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
         
       </fields>
       <items>
@@ -261,12 +260,6 @@
     <text name="form_title" name_friendly="Form Title">
       <![CDATA[Join our Mailing List]]>
     </text>
-    <textarea name="form_text" name_friendly="Form Sub Text">
-      <![CDATA[Join our Story, find our product in these stores.]]>
-    </textarea>
-    <url name="form_webhook" name_friendly="Form Webhook (optional)">
-      <![CDATA[]]>
-    </url>
     
   </clippings>
 
