@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">{{page.title3}}</h2>
-					<h3 class="section-subheading text-muted">{{page.content3}}</h3>
+					<h3 class="section-subheading text-muted">{{page.sub_title3}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -72,7 +72,7 @@
                     
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-								<h4>{{page.button_text3}}</h4>
+								<h4>{{page.button_text_3}}</h4>
                             </div>
                         </li>
                     </ul>

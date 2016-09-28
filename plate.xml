@@ -39,7 +39,7 @@
           <button_text_3><![CDATA[Share your story]]></button_text_3>
 
           <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
-          <sub_title4><![CDATA[Let your cusutomers tell others how.]]></sub_title4>
+          <sub_title4><![CDATA[Let your customers tell others how.]]></sub_title4>
           <button_text_4><![CDATA[Read influencer stories]]></button_text_4>          
           
         </item>
@@ -218,6 +218,10 @@
 			<item link_title="Terms of Use" path_part="terms-of-use">  
 			  <title><![CDATA[Terms of Use]]></title>
 			  <content><![CDATA[See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a>]]></content>
+			</item>
+			<item link_title="Thank You" path_part="thank-you">  
+			  <title><![CDATA[Thank You]]></title>
+			  <content><![CDATA[We will be sending you awesome stories once a month.]]></content>
 			</item>
 		</items>
 	</templateset>

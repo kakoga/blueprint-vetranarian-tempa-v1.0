@@ -27,13 +27,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{clippings.form_header}}</h2>
+                    <h2 class="section-heading">{{clippings.form_title}}</h2>
                     <h3 class="section-subheading text-muted">{{clippings.form_text}}</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" method="post" action="/thank-you/" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -65,7 +65,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">{{clippings.form_button_text}}</button>
                             </div>
                         </div>
                     </form>
