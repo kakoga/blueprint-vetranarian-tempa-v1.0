@@ -215,9 +215,11 @@ header {
 }
 
 // Global Section Styles
-
 section {
-    padding: 100px 0;
+    padding: 100px 0;    
+}
+section, .recipe-wrap {
+
     h2.section-heading {
         font-size: 40px;
         margin-top: 0;
@@ -238,6 +240,25 @@ section {
         padding: 150px 0;
     }
 }
+
+.recipe-wrap{
+	padding: 100px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+	@media (min-width: 768px){
+	    width: 750px;
+	}
+	@media (min-width: 992px){
+	
+	    width: 970px;
+	}
+	@media (min-width: 1200px){
+	
+	    width: 1170px;
+	}
+}
+
 
 // Services Section
 
