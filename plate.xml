@@ -144,7 +144,7 @@
 		</items>
 	</templateset>
 		
-	<pageset name="influencer" name_friendly="Influencers" parent_item="influencers_page" view="influencer-page" >
+	<pageset name="influencer" name_friendly="Influencers" parent_item="influencers" view="influencer-page" >
 		<fields>
 			<text name="name" name_friendly="Name" required="1" list="1"  />
 			<text name="title" name_friendly="Title" list="1" />
