@@ -264,7 +264,9 @@
     <textarea name="form_text" name_friendly="Form Sub Text">
       <![CDATA[Join our Story, find our product in these stores.]]>
     </textarea>
-    <url name="form_webhook" name_friendly="Form Webhook (optional)"/>
+    <text name="form_webhook" name_friendly="Form Webhook (optional)">
+      <![CDATA[]]>
+    </text>
     
   </clippings>
 
