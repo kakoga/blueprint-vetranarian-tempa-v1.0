@@ -1,10 +1,14 @@
   <!-- Header -->
-    <header style="background-image:url({{page.image1.getImage()}})">      
+	{{if {simple_blog_article.last().image} }}
+	<header style="background-image:url({{simple_blog_article.last().image.getImage()}})">      
+	{{else}}
+	<header style="background-image:url({{page.image1.getImage()}})">      
+	{{end-if}}
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">{{page.title1}}</div>
                 <div class="intro-heading">{{page.subtitle1}}</div>
-                <a href="{{truepath(527)}}" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
+                <a href="{{simple_blog_article.last().getUrl()}}" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
             </div>
         </div>
     </header>
@@ -14,8 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<h2 class="section-heading">{{page.title1}}</h2>
-					<h3 class="section-subheading text-muted">{{page.content1}}</h3>
+					<h2 class="section-heading">{{page.title2}}</h2>
                 </div>
             </div>
             <div class="row">
@@ -28,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<a href="{{truepath(501)}}" class="page-scroll btn btn-xl">{{page.button_text_1}}</a>
+					<a href="{{truepath(501)}}" class="page-scroll btn btn-xl">{{page.button_text_2}}</a>
                 </div>
             </div>
         </div>
@@ -39,8 +42,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{page.title2}}</h2>
-					<h3 class="section-subheading text-muted">{{page.content2}}</h3>
+                    <h2 class="section-heading">{{page.title3}}</h2>
+					<h3 class="section-subheading text-muted">{{page.content3}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -69,7 +72,7 @@
                     
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-								<h4>{{page.title2}}</h4>
+								<h4>{{page.button_text3}}</h4>
                             </div>
                         </li>
                     </ul>
@@ -83,8 +86,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-					<h2 class="section-heading">{{page.title3}}</h2>
-					<h3 class="section-subheading text-muted">{{page.sub_title3}}</h3>
+					<h2 class="section-heading">{{page.title4}}</h2>
+					<h3 class="section-subheading text-muted">{{page.sub_title4}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -109,8 +112,8 @@
               
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-					<p class="large text-muted">{{page.content3}}</p>
+                <div class="col-lg-12 text-center">
+					<a href="{{influencers_page.first().getUrl()}}" class="page-scroll btn btn-xl">{{page.button_text_4}}</a>
                 </div>
             </div>
         </div>

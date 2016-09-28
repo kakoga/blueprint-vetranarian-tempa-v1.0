@@ -27,8 +27,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">{{clippings.form_header}}</h2>
+                    <h3 class="section-subheading text-muted">{{clippings.form_text}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -55,6 +55,13 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                            {{if {clippings.form_webhook} }}
+                            <input type="hidden" name="_zesty_webhook" value="{{clippings.form_webhook}}" />
+							{{end-if}}
+							(** zesty hidden inputs **)
+							<input name="zlf" value="1" type="hidden" />
+							<input name="zcf" value="1" type="hidden" />							
+							
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
