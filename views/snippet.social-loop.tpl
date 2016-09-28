@@ -10,7 +10,7 @@
                     </a>
                     <div class="portfolio-caption">
 						<h4>Posted by <a target="_blank" href="{{social.post_url}}">{{social.username}}</a></h4>
-                        <p class="text-muted">{{social.content}}</p>
+                        
                     </div>
                 </div>
 				{{if {index} % 3 == 0 }}
@@ -33,7 +33,7 @@
 			                        <div class="col-lg-8 col-lg-offset-2">
 			                            <div class="modal-body">
 			                                <!-- Project Details Go Here -->
-			                                <h2>Posted by {{social.user_name}}</h2>
+			                                <h2>Posted by {{social.username}}</h2>
 			                                <p class="item-intro text-muted">Posted on {{social.date_created}}</p>
 			                                <img class="img-responsive img-centered" src="{{social.image_url}}" alt="">
 			                                <p>{{social.content.activate_links()}}</p>
