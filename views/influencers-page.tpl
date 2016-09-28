@@ -7,7 +7,7 @@
 			<h1 itemprop="name headline">{{page.title}}</h1>
 			(** if there is an image, show it in the header with an H1 overlay **)
 			{{ if {page.image} }}
-			<img src="{{page.image.getImage()}}" alt="{{page.title}} header image">
+			<img src="{{page.image.getImage()}}" class="img-responsive" alt="{{page.title}} header image">
 			{{end-if}}
 			<div class="z-row">
 				<div class="team-wrap">	
