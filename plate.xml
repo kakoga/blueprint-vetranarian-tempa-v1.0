@@ -104,10 +104,10 @@
       </items>
     </dataset>
 
-    <dataset name="home_page_featured_in" name_friendly="Homepage Bullets">
+    <dataset name="featured_in" name_friendly="Featured In Logos">
       <fields>
         <text name="name" name_friendly="Name of Feature Logo" required="1" list="1" />
-		<images name="image_logo" name_friendly="Logo" limit="1" />
+		<images name="image" name_friendly="Logo" limit="1" />
         <text name="url" name_friendly="Link (optional)" limit="1" list="1" />        
       </fields>
       <items>
@@ -135,15 +135,19 @@
     </dataset>
   </ingredients>
 
-<templateset name="privacy-policy" name_friendly="Privacy Policy" view="privacy_policy">
+<templateset name="generic-page" name_friendly="Generic Page" view="generic_page">
 	<fields>
-		<text name="title" name_friendly="Title " required="1" />
-		<wysiwyg_advanced name="content" name_friendly="Content " />
+		<text name="title" name_friendly="Page Title (h1)" required="1" />
+		<wysiwyg_advanced name="content" name_friendly="Page Content" />
 	</fields>
 	<items>
 		<item link_title="Privacy Policy" path_part="privacy-policy">  
 		  <title><![CDATA[Privacy Policy]]></title>
 		  <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
+		</item>
+		<item link_title="Terms of Use" path_part="terms-of-use">  
+		  <title><![CDATA[Terms of Use]]></title>
+		  <content><![CDATA[See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a>]]></content>
 		</item>
 	</items>
 </templateset>
