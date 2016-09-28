@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: white;
+                margin: 0px;
                 &:hover,
                 &:focus {
                     color: @theme-primary;
@@ -129,6 +130,9 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
         background-color: darken(@theme-primary, 10%);
     }
+	&.always-dark{
+		background-color: @gray-darker !important; 
+	}
 }
 
 @media(min-width:768px) {
@@ -139,6 +143,11 @@ h1, h2, h3, h4, h5, h6 {
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
         border: none;
+        &.always-dark{
+	       background-color: @gray-darker !important; 
+	        
+        }
+        
         .navbar-brand {
             font-size: 2em;
             -webkit-transition: all 0.3s;
