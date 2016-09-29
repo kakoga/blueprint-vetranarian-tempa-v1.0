@@ -89,6 +89,15 @@ h1, h2, h3, h4, h5, h6 {
         &.active {
             color: darken(@theme-primary, 10%);
         }
+		&.brand-image{
+			padding: 0px !important;
+			margin-top: 0px;
+			img {
+				max-height: 55px;
+				max-width: 190px;
+			}
+		}
+		
     }
     .navbar-collapse {
         border-color: fade(white, 2%);
@@ -198,6 +207,7 @@ header {
             margin-bottom: 25px;
         }
     }
+	
 }
 
 @media(min-width:768px) {

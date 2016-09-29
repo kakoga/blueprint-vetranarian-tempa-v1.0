@@ -8,7 +8,11 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="/">{{clippings.site_name}}</a>
+			{{if {clippings.logo} }}
+			<a class="navbar-brand brand-image page-scroll" href="/"><img src="{{clippings.logo.getImage()}}" alt="{{clippings.site_name}} logo"/></a>
+			{{else}}
+			<a class="navbar-brand page-scroll" href="/">{{clippings.site_name}}</a>
+			{{end-if}}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
