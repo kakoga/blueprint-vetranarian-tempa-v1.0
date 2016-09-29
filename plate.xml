@@ -72,7 +72,7 @@
 		    <link name="where_to_buy_link" name_friendly="Where to buy link"/>
 		</fields>
 		<items>
-			<item link_title="Aftershokz Bone Conduction 2.0" path_part="">
+			<item link_title="Product Example" path_part="product-example" parent="our-products">
 				<name>Product</name>
 				<description><![CDATA[Product Placeholder Content]]></description>
 				<specs><![CDATA[Product Placeholder Specs]]></specs>
@@ -81,7 +81,7 @@
 				<where_to_buy_link><![CDATA[https://www.facebook.com]]></where_to_buy_link>
 			</item>
 		</items>
-    </dataset>
+    </pageset>
 					
     
     
