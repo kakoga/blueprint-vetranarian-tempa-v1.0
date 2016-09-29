@@ -250,7 +250,7 @@
 			<wysiwyg_advanced name="content" name_friendly="Page Content" />
 		</fields>
 		<items>
-			<item link_title="Privacy Policy" path_part="privacy-policy">  
+			<item link_title="Privacy Policy" path_part="privacy-policy" active="-1">  
 			  <title><![CDATA[Privacy Policy]]></title>
 			  <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
 			</item>
