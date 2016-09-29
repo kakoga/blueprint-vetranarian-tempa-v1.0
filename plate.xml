@@ -46,6 +46,45 @@
       </items>
     </templateset>
     
+    <templateset name="product_page" name_friendly="Product Page" view="products-page">
+		<fields>
+			<text name="title" name_friendly="Page Title" required="1" />
+			<wysiwyg_advanced name="description" name_friendly="Optional Page Description" />
+			
+		</fields>
+		
+		<items>
+			<item link_title="Products" path_part="our-products">
+				<title><![CDATA[Our Products Influencers]]></title>
+				<description><![CDATA[<p>We have really awesome products!</p>]]></description>
+			</item>
+		</items>
+	</templateset>
+    
+    
+    <pageset name="products" name_friendly="Individual Products" parent_item="our-products"  view="product-individual-page">
+	    <fields>
+		    <text name="name" name_friendly="Name"/>
+		    <wysiwyg_basic name="description" name_friendly="Description"/>
+		    <wysiwyg_basic name="specs" name_friendly="Specs (optional)"/>
+		    <images name="main_image" name_friendly="Main Image"/>
+		    <images name="additional_images" name_friendly="Additional Images"/>
+		    <link name="where_to_buy_link" name_friendly="Where to buy link"/>
+		</fields>
+		<items>
+			<item link_title="Aftershokz Bone Conduction 2.0" path_part="">
+				<name>Product</name>
+				<description><![CDATA[Product Placeholder Content]]></description>
+				<specs><![CDATA[Product Placeholder Specs]]></specs>
+				<main_image><![CDATA[https://upload.wikimedia.org/wikipedia/commons/9/91/IPod_Nano_4G_black.jpg]]></main_image>
+				<additional_images></additional_images>
+				<where_to_buy_link><![CDATA[https://www.facebook.com]]></where_to_buy_link>
+			</item>
+		</items>
+    </dataset>
+					
+    
+    
      <dataset name="social_links" name_friendly="Social Links">
       <fields>
         <text name="name" name_friendly="Social Media Name" required="1" list="1" />
@@ -152,7 +191,7 @@
 		</items>
 	</templateset>
 		
-	<pageset name="influencer" name_friendly="Individual Influencers" parent_item="influencers" view="influencer-page" >
+	<pageset name="people" name_friendly="Individual Influencers" parent_item="influencers" view="influencer-page">
 		<fields>
 			<text name="name" name_friendly="Name" required="1" list="1"  />
 			<text name="title" name_friendly="Title" list="1" />
@@ -258,6 +297,10 @@
     <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">
       <![CDATA[#brandepicenter]]>
     </text>
+    <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1">
+      <![CDATA[Product]]>
+    </text>
+    
     <text name="featured_title" name_friendly="Feature title">
       <![CDATA[Join our Story, find our product in these stores.]]>
     </text>

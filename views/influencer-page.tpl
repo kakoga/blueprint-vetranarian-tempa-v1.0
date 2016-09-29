@@ -3,36 +3,30 @@
 <section>
     <div class="container">
 	    (** recipe: team > single team member view **)
-		<div class="team-member" itemscope="" itemtype="http://schema.org/Person">
-			<h1 itemprop="name">{{page.name}}</h1>
-			<div class="z-row">
-				<div class="col-2/3">
+		<div class="influencer" itemscope="" itemtype="http://schema.org/Person">
+			<h1 itemprop="name">Meet {{page.name}}</h1>
+			<h4 itemprop="jobTitle" class="section-subheading text-muted">{{page.title}}</h4>
+			<div class="row">
+				<div class="col-md-8">
 					<div class="team-wrap">
-						<img src="{{page.image.getImage()}}" class="z-responsive-width" itemprop="image" align="left">
-						<h4 itemprop="jobTitle">{{page.title}}</h4>
-						{{if {page.phone} }}
-						<h6>Phone</h6>
-						<a itemprop="telephone" href="{{page.phone.obfuscate()}}">{{page.phone.obfuscate()}}</a><br><br>
-						{{end-if}}
-						{{if {page.email} }}
-						<h6>Email</h6>
-						<a itemprop="email" href="{{page.email.obfuscate()}}">{{page.email.obfuscate()}}</a><br><br>
-						{{end-if}}
-						{{if {page.education} }}
-						<h6>Education</h6>
-						<div itemprop="alumniOf">{{page.education}}</div>
-						{{end-if}}
-						<h6>Bio</h6>
-						<div class="description" itemprop="description">{{page.description}}</div>
-						<div>{{page.misc}}</div>
+						<img src="{{page.image.getImage()}}" class="img-responsive" itemprop="image">
+						
 					</div>
 				</div>
-				<div class="col-1/3">
-					<div class="side-bar">
-						<div class="widget">
-							{{bootstrap.sectionlinks(true)}}
-						</div>
-					</div>
+				<div class="col-md-4">
+					
+					<div class="description" itemprop="description">{{page.description}}</div>
+					<div>{{page.misc}}</div>
+					<hr>
+					<h4>{{page.name}}'s favorite {{clippings.product_nick_name}}!</h4>
+					{{each products as product where product.zid = {page.favorite_product} limit 1}}
+					<a href="{{product.where_to_buy_link}}" class="pull-right btn btn-primary btn-sm"><span class="fa fa-shopping-cart"></span> Buy</a>
+					
+					<h6>{{product.name}}</h6>
+					<img src="{{product.main_image.getImage()}}" class="img-responsive">
+					
+					
+					{{end-each}}
 				</div>
 			</div>
 		</div>

@@ -14,18 +14,18 @@
 					<div itemprop="text">{{page.description}}</div>
 					<div class="team-members">
 						<div class="row">
-						{{each influencer as influencer sort by influencer.sort asc}}
+						{{each people as person sort by person.sort asc}}
 							<div class="col-md-4 col-sm-6 portfolio-item" temscope="" itemtype="http://schema.org/Person">
-								<a href="{{influencer.getUrl()}}" class="portfolio-link">
+								<a href="{{person.getUrl()}}" class="portfolio-link">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-plus fa-3x"></i>
 			                            </div>
 			                        </div>
-									<img itemprop="image" src="{{influencer.image.getImage(600,600,crop)}}" class="img-responsive" alt="{{influencer.name}}, {{influencer.title}} ">
+									<img itemprop="image" src="{{person.image.getImage(600,600,crop)}}" class="img-responsive" alt="{{person.name}}, {{person.title}} ">
 			                    </a>
 			                    <div class="portfolio-caption">
-									<h4  itemprop="jobTitle"><a href="{{influencer.getUrl()}}">{{influencer.name}}</a>, {{influencer.title}} </h4>
+									<h4  itemprop="jobTitle"><a href="{{person.getUrl()}}">{{person.name}}</a>, {{influencer.title}} </h4>
 			                        
 			                    </div>
 			                </div>
