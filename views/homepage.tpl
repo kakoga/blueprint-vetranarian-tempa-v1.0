@@ -95,7 +95,7 @@
 				<div class="col-sm-4">
                     <div class="team-member">
 						<a href="{{person.getUrl()}}">
-						<img src="{{person.image.getImage()}}" class="img-responsive img-circle" alt="{{person.name}} image">
+						<img src="{{person.image.getImage(500,500,crop)}}" class="img-responsive img-circle" alt="{{person.name}} image">
 						</a>
 						<h4><a href="{{person.getUrl()}}">{{person.name}}</a></h4>
 						<p class="text-muted">{{person.title}}</p>
