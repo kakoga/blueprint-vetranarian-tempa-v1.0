@@ -16,7 +16,7 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-							<img itemprop="image" src="{{product.image.getImage(600,600,crop)}}" class="img-responsive" alt="{{product.name}}">
+							<img itemprop="image" src="{{product.main_image.getImage(600,600,crop)}}" class="img-responsive" alt="{{product.name}}">
 	                    </a>
 	                    <div class="portfolio-caption">
 							<h4  itemprop="jobTitle"><a href="{{product.getUrl()}}">{{product.name}}</a></h4>
