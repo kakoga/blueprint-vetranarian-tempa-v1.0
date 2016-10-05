@@ -52,7 +52,7 @@
 			<sort>2</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png]]></value>
+			<value><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true]]></value>
 		</image>
 		<dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">		
 			<category>1</category>
