@@ -64,10 +64,10 @@
     
     <pageset name="products" name_friendly="Individual Products" parent_item="our-products"  view="product-individual-page">
 	    <fields>
-		    <text name="name" name_friendly="Name"/>
+		    <text name="name" name_friendly="Name" list="1"/>
 		    <wysiwyg_basic name="description" name_friendly="Description"/>
 		    <wysiwyg_basic name="specs" name_friendly="Specs (optional)"/>
-		    <images name="main_image" name_friendly="Main Image"/>
+		    <images name="main_image" name_friendly="Main Image" list="1"/>
 		    <images name="additional_images" name_friendly="Additional Images"/>
 		    <link name="where_to_buy_link" name_friendly="Where to buy link"/>
 		</fields>
@@ -213,38 +213,7 @@
 				<quote><![CDATA[<p>Life is what happens to you while you're busy making other plans.</p>]]></quote>
 				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[1]]></sort>
-				<favorite_product></favorite_product>
-			</item>
-			<item link_title="George Harrison" path_part="george-harrison" parent="influencers">
-				<name><![CDATA[George Harrison]]></name>
-				<title><![CDATA[Guitarist, Writer]]></title>
-				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-george_harrison_ny_1964.png]]></image>
-				<description><![CDATA[<p>George Harrison, MBE was an English musician, singer and songwriter who achieved international fame as the lead guitarist of the Beatles.</p>]]></description>
-				<quote><![CDATA[<p>All the world is birthday cake, so take a piece, but not too much.</p>]]></quote>
-				<location><![CDATA[Liverpool, England]]></location>
-				<sort><![CDATA[2]]></sort>
-				<favorite_product></favorite_product>
-			</item>
-			<item link_title="Paul McCartney" path_part="paul-mccartney" parent="influencers">
-				<name><![CDATA[Paul McCartney]]></name>
-				<title><![CDATA[Composer, All Instruments, Writer]]></title>
-				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-paul_mccartney_ny_1964.png]]></image>
-				<description><![CDATA[<p>Sir James Paul McCartney, MBE is an English musician, singer, songwriter, multi-instrumentalist and composer.</p>]]></description>
-				<quote><![CDATA[<p>I used to think anyone doing anything weird was weird. Now I know that it is the people that call others weird that are weird.</p>]]></quote>
-				<location><![CDATA[Liverpool, England]]></location>
-				<sort><![CDATA[3]]></sort>
-				<favorite_product></favorite_product>
-			</item>
-			<item link_title="Ringo Starr" path_part="ringo-starr" parent="influencers">
-				<name><![CDATA[Ringo Starr]]></name>
-				<title><![CDATA[Drummer]]></title>
-				<image><![CDATA[https://b64d8ceea21aaf2a6e01-2dc0b1b1038915cc64f54354367e7400.ssl.cf2.rackcdn.com/or-ringo_starr_ny_1964.png]]></image>
-				<description><![CDATA[<p>Ringo Starr, MBE is an English musician, singer, songwriter and actor who gained worldwide fame as the drummer for the Beatles.</p>]]></description>
-
-				<quote><![CDATA[<p>Everything government touches turns to crap.</p>]]></quote>
-				<location><![CDATA[Liverpool, England]]></location>
-				<sort><![CDATA[4]]></sort>
-				<favorite_product></favorite_product>
+				<favorite_product><![CDATA[527]]></favorite_product>
 			</item>
 		</items>
 	</pageset>	
