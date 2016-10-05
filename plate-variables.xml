@@ -793,7 +793,7 @@
 			<locked>0</locked>
 			
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="h2-font-weight" name_friendly="H2 Font Weight">		
 			<category>2</category>
@@ -802,7 +802,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="h3-font-weight" name_friendly="H3 Font Weight">		
 			<category>2</category>
@@ -811,7 +811,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="h4-font-weight" name_friendly="H4 Font Weight">		
 			<category>2</category>
@@ -820,7 +820,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="h5-font-weight" name_friendly="H5 Font Weight">		
 			<category>2</category>
@@ -829,7 +829,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="h6-font-weight" name_friendly="H6 Font Weight">		
 			<category>2</category>
@@ -838,7 +838,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[bold]]></value>
+			<value><![CDATA[700]]></value>
 		</font_weight>
 		<font_weight name="paragraph-font-weight" name_friendly="Paragraph Font Weight">		
 			<category>2</category>
