@@ -2,6 +2,8 @@
 
 body {
     overflow-x: hidden;
+    background-color: @body-bg-color;
+    color: @default-font-color;
     .body-font;
 }
 
@@ -14,12 +16,13 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: @paragraph-font-size;
+    font-weight: @paragraph-font-weight;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: (@paragraph-font-size * 1.2);
 }
 
 a,
@@ -82,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
-        .script-font;
+		.heading-font;
         &:hover,
         &:focus,
         &:active,
@@ -259,6 +262,8 @@ section, .recipe-wrap {
         padding: 150px 0;
     }
 }
+
+// bolt on for classic Zesty.io recipes installed from the sitemap tool
 
 .recipe-wrap{
 	padding: 150px 15px;
@@ -577,7 +582,7 @@ aside.clients {
 
 section#contact {
     background-color: @gray-darker;
-    background-image: url(@homepage-map-image); // https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true
+    background-image: url('@homepage-map-image'); // https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {

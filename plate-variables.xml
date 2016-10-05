@@ -280,15 +280,15 @@
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA['Helvetica', 'Arial', 'Helvetica', 'sans-serif']]></value>
+			<value><![CDATA['Roboto Slab', 'Arial', 'Helvetica', 'sans-serif']]></value>
 		</font_picker>
 		<color name="default-font-color" name_friendly="Default Font Color">		
 			<category>2</category>
-			<description><![CDATA[NULL]]></description>
+			<description><![CDATA[Base color for items not addressed in CSS]]></description>
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#5a5a5a]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<text name="default-font-size" name_friendly="Default Font Size">		
 			<category>2</category>
@@ -298,13 +298,21 @@
 			<locked>0</locked>
 			<value><![CDATA[12px]]></value>
 		</text>
+		<font_picker name="serif-font" name_friendly="Serif Font">		
+			<category>2</category>
+			<description><![CDATA[NULL]]></description>
+			<sort>9</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value><![CDATA['Droid Serif', 'Arial', 'Helvetica', 'sans-serif']]></value>
+		</font_picker>
 		<font_picker name="heading-font" name_friendly="Heading Font">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
 			<sort>9</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA['Arial', 'Arial', 'Helvetica', 'sans-serif']]></value>
+			<value><![CDATA['Montserrat', 'Arial', 'Helvetica', 'sans-serif']]></value>
 		</font_picker>
 		<text name="h1-font-size" name_friendly="H1 Font Size">		
 			<category>2</category>
@@ -833,7 +841,7 @@
 			<locked>0</locked>
 			<value><![CDATA[1.1]]></value>
 		</text>
-		<dropdown name="h1-font-weight" name_friendly="H1 Font Weight">		
+		<font_weight name="h1-font-weight" name_friendly="H1 Font Weight">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
 			<sort>12</sort>
@@ -842,7 +850,7 @@
 			
 			
 			<value><![CDATA[bold]]></value>
-		</dropdown>
+		</font_weight>
 		<font_weight name="h2-font-weight" name_friendly="H2 Font Weight">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
@@ -897,138 +905,5 @@
 			
 			<value><![CDATA[normal]]></value>
 		</font_weight>
-		<color name="subnav-link-color" name_friendly="Subnav Link Color">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#123456]]></value>
-		</color>
-		<color name="subnav-link-hover-color" name_friendly="Subnav Link Hover Color">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#123456]]></value>
-		</color>
-		<font_weight name="subnav-link-weight" name_friendly="Subnav Link Weight">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<value><![CDATA[normal]]></value>
-		</font_weight>
-		<dropdown name="subnav-link-text-decoration" name_friendly="Subnav Link Text Decoration">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<options>
-				<option description="None" value="none" />
-				<option description="Underline" value="underline" />
-				<option description="Strike through" value="line-through" />
-			</options>
-			<value><![CDATA[none]]></value>
-		</dropdown>
-		<dropdown name="subnav-link-hover-text-decoration" name_friendly="Subnav Link Hover Text Decoration">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<options>
-				<option description="None" value="none" />
-				<option description="Underline" value="underline" />
-				<option description="Strike through" value="line-through" />
-			</options>
-			<value><![CDATA[none]]></value>
-		</dropdown>
-		<color name="subnav-link-visited-color" name_friendly="Subnav Link Visited Color">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#123456]]></value>
-		</color>
-		<color name="subnav-link-active-color" name_friendly="Subnav Link Active Color">		
-			<category>5</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#de1454]]></value>
-		</color>
-		<color name="btn-secondary-bg-color" name_friendly="Secondary Button Background Color">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>50</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#228191]]></value>
-		</color>
-		<text name="btn-secondary-font-size" name_friendly="Secondary Button Font Size">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>55</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[18px]]></value>
-		</text>
-		<color name="btn-secondary-font-color" name_friendly="Secondary Button Font Color">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>60</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#FFFFFF]]></value>
-		</color>
-		<text name="btn-secondary-height" name_friendly="Secondary Button Height">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>65</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[30px]]></value>
-		</text>
-		<text name="btn-secondary-padding-right" name_friendly="Secondary Button Padding Right">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>70</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[15px]]></value>
-		</text>
-		<text name="btn-secondary-padding-left" name_friendly="Secondary Button Padding Left">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>75</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[15px]]></value>
-		</text>
-		<color name="btn-secondary-hover-bg-color" name_friendly="Secondary Button Hover Background Color">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>80</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#135953]]></value>
-		</color>
-		<color name="btn-secondary-hover-font-color" name_friendly="Secondary Button Hover Font Color">		
-			<category>6</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>85</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#ffffff]]></value>
-		</color>
-	</variables>
+			</variables>
 </plate_variables>
