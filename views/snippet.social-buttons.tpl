@@ -10,7 +10,6 @@
 		<a class="social-button mn-social-bottom" href="http://www.stumbleupon.com/submit?url="><i class="fa fa-stumbleupon"></i></a>
 		<a class="social-button mn-social-bottom" href="http://www.reddit.com/submit?url="><i class="fa fa-reddit"></i></a>
 		<a class="social-button mn-social-bottom" href="https://plus.google.com/share?url="><i class="fa fa-google-plus"></i></a>		
-
 		<a class="social-button mn-social-bottom"><i class="fa fa-delicious"></i></a>
 	</div>
 </div>
