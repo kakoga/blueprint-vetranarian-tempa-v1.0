@@ -200,6 +200,8 @@
 			<wysiwyg_advanced name="quote" name_friendly="Highlighted Quote" />
 			<text name="location" name_friendly="Location" />
 			<sort name="sort" name_friendly="Sort Order" list="1" />
+			<one_to_one name="favorite_product" name_friendly="Favorite Product" relationship="products" relationship_field="name" list="1" />
+
 		</fields>
 					
 		<items>
@@ -211,6 +213,7 @@
 				<quote><![CDATA[<p>Life is what happens to you while you're busy making other plans.</p>]]></quote>
 				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[1]]></sort>
+				<favorite_product></favorite_product>
 			</item>
 			<item link_title="George Harrison" path_part="george-harrison" parent="influencers">
 				<name><![CDATA[George Harrison]]></name>
@@ -220,6 +223,7 @@
 				<quote><![CDATA[<p>All the world is birthday cake, so take a piece, but not too much.</p>]]></quote>
 				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[2]]></sort>
+				<favorite_product></favorite_product>
 			</item>
 			<item link_title="Paul McCartney" path_part="paul-mccartney" parent="influencers">
 				<name><![CDATA[Paul McCartney]]></name>
@@ -229,6 +233,7 @@
 				<quote><![CDATA[<p>I used to think anyone doing anything weird was weird. Now I know that it is the people that call others weird that are weird.</p>]]></quote>
 				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[3]]></sort>
+				<favorite_product></favorite_product>
 			</item>
 			<item link_title="Ringo Starr" path_part="ringo-starr" parent="influencers">
 				<name><![CDATA[Ringo Starr]]></name>
@@ -239,6 +244,7 @@
 				<quote><![CDATA[<p>Everything government touches turns to crap.</p>]]></quote>
 				<location><![CDATA[Liverpool, England]]></location>
 				<sort><![CDATA[4]]></sort>
+				<favorite_product></favorite_product>
 			</item>
 		</items>
 	</pageset>	

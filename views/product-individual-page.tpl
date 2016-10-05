@@ -1,5 +1,5 @@
 
-<!-- Generic Page View -->
+<!-- Product Page View -->
 <section>
     <div class="container">
 	   
@@ -8,7 +8,7 @@
 			<h1 itemprop="name">{{page.name}}</h1>
 					
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-6">
 					<div class="team-wrap">
 						<img src="{{page.main_image.getImage()}}" class="img-responsive" itemprop="image">
 						<div style="text-align:center">
@@ -20,7 +20,7 @@
 						
 					</div>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					
 					<div class="description" itemprop="description">{{page.description}}</div>
 					<hr>
