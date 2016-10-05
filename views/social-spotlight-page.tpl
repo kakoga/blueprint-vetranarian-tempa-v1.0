@@ -9,7 +9,8 @@
                 </div>
             </div>
 	    <div class="row">
-			{{each social_feed as social}}
+		    
+			{{each social_feed as social order by social.id DESC}}
 			
 			{{include social-loop}}
 			
