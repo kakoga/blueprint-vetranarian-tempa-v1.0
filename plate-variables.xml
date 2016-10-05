@@ -320,7 +320,7 @@
 			<sort>11</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[28px]]></value>
+			<value><![CDATA[36px]]></value>
 		</text>
 		<text name="h2-font-size" name_friendly="H2 Font Size">		
 			<category>2</category>
@@ -328,7 +328,7 @@
 			<sort>16</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[26px]]></value>
+			<value><![CDATA[28px]]></value>
 		</text>
 		<text name="h3-font-size" name_friendly="H3 Font Size">		
 			<category>2</category>
@@ -336,7 +336,7 @@
 			<sort>21</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[22px]]></value>
+			<value><![CDATA[24px]]></value>
 		</text>
 		<text name="h4-font-size" name_friendly="H4 Font Size">		
 			<category>2</category>
@@ -344,7 +344,7 @@
 			<sort>26</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[24px]]></value>
+			<value><![CDATA[22px]]></value>
 		</text>
 		<text name="h5-font-size" name_friendly="H5 Font Size">		
 			<category>2</category>
@@ -360,7 +360,7 @@
 			<sort>36</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[16px]]></value>
+			<value><![CDATA[18px]]></value>
 		</text>
 		<text name="paragraph-font-size" name_friendly="Paragraph Font Size">		
 			<category>2</category>
@@ -451,7 +451,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[#111]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<color name="h3-font-color" name_friendly="H3 Font Color">		
 			<category>2</category>
@@ -459,7 +459,7 @@
 			<sort>20</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#222]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<color name="h4-font-color" name_friendly="H4 Font Color">		
 			<category>2</category>
@@ -467,7 +467,7 @@
 			<sort>25</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#333]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<color name="h5-font-color" name_friendly="H5 Font Color">		
 			<category>2</category>
@@ -475,7 +475,7 @@
 			<sort>30</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#404040]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<color name="h6-font-color" name_friendly="H6 Font Color">		
 			<category>2</category>
@@ -483,7 +483,7 @@
 			<sort>35</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#4a4a4a]]></value>
+			<value><![CDATA[#000000]]></value>
 		</color>
 		<color name="paragraph-font-color" name_friendly="Paragraph Font Color">		
 			<category>2</category>
