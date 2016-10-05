@@ -6,6 +6,30 @@
 	<created_by>Zesty</created_by>
 	<kitchen>Blank</kitchen>
 	<variables>
+		<color name="theme-primary-color" name_friendly="Theme Primary Color">		
+			<category>1</category>
+			<description><![CDATA[Button, links, and primary title color.]]></description>
+			<sort>5</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value><![CDATA[#fed136]]></value>
+		</color>
+		<color name="theme-danger-color" name_friendly="Theme Danger Color">		
+			<category>1</category>
+			<description><![CDATA[Notification color, should be a dark yellow, red, or orange.]]></description>
+			<sort>5</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value><![CDATA[#e74c3c]]></value>
+		</color>		
+		<color name="theme-gray-color" name_friendly="Theme Gray Color">		
+			<category>1</category>
+			<description><![CDATA[Base color for all the basic type on the website.]]></description>
+			<sort>5</sort>
+			<edit_in_content>1</edit_in_content>
+			<locked>0</locked>
+			<value><![CDATA[#000]]></value>
+		</color>
 		<color name="body-bg-color" name_friendly="Body Background Color">		
 			<category>1</category>
 			<description><![CDATA[The primary background for elements]]></description>
