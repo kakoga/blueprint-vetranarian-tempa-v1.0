@@ -322,14 +322,6 @@
 			<locked>0</locked>
 			<value><![CDATA[28px]]></value>
 		</text>
-		<text name="h1-margin-bottom" name_friendly="H1 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>12</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
-		</text>
 		<text name="h2-font-size" name_friendly="H2 Font Size">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
@@ -337,14 +329,6 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			<value><![CDATA[26px]]></value>
-		</text>
-		<text name="h2-margin-bottom" name_friendly="H2 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>17</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
 		</text>
 		<text name="h3-font-size" name_friendly="H3 Font Size">		
 			<category>2</category>
@@ -354,14 +338,6 @@
 			<locked>0</locked>
 			<value><![CDATA[22px]]></value>
 		</text>
-		<text name="h3-margin-bottom" name_friendly="H3 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>22</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
-		</text>
 		<text name="h4-font-size" name_friendly="H4 Font Size">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
@@ -369,14 +345,6 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			<value><![CDATA[24px]]></value>
-		</text>
-		<text name="h4-margin-bottom" name_friendly="H4 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>27</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
 		</text>
 		<text name="h5-font-size" name_friendly="H5 Font Size">		
 			<category>2</category>
@@ -386,14 +354,6 @@
 			<locked>0</locked>
 			<value><![CDATA[20px]]></value>
 		</text>
-		<text name="h5-margin-bottom" name_friendly="H5 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>32</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
-		</text>
 		<text name="h6-font-size" name_friendly="H6 Font Size">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
@@ -401,14 +361,6 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			<value><![CDATA[16px]]></value>
-		</text>
-		<text name="h6-margin-bottom" name_friendly="H6 Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>37</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[8px]]></value>
 		</text>
 		<text name="paragraph-font-size" name_friendly="Paragraph Font Size">		
 			<category>2</category>
@@ -425,14 +377,6 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			<value><![CDATA[1.4em]]></value>
-		</text>
-		<text name="paragraph-margin-bottom" name_friendly="Paragraph Margin Bottom">		
-			<category>2</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>8</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[1.5em]]></value>
 		</text>
 		<color name="btn-font-color" name_friendly="Button Font Color">		
 			<category>6</category>
@@ -489,7 +433,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			
-			<value><![CDATA[960px]]></value>
+			<value><![CDATA[1170px]]></value>
 		</text>
 		<color name="h1-font-color" name_friendly="H1 Font Color">		
 			<category>2</category>

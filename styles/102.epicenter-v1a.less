@@ -49,6 +49,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+h1 {
+	font-color: @h1-font-color;
+	font-size: @h1-font-size;	
+	
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -76,6 +82,13 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+	    width: @container-max-width;
+	}
 }
 
 // Custom Navigation Bar
@@ -185,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('@homepage-header-image');
+    background-image: url( @homepage-header-image );
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -582,7 +595,7 @@ aside.clients {
 
 section#contact {
     background-color: @gray-darker;
-    background-image: url('@homepage-map-image'); // https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true
+    background-image: url(@homepage-map-image); // https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
