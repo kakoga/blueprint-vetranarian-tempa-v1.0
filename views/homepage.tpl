@@ -19,6 +19,12 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
 					<h2 class="section-heading">{{page.title2}}</h2>
+					<h4>
+						<a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
+							{{clippings.global_hashtag}}
+						</a>
+					</h4>
+					<br>
                 </div>
             </div>
             <div class="row">
@@ -73,6 +79,18 @@
                         <li class="timeline-inverted">
                             <div class="timeline-image">
 								<h4>{{page.button_text_3}}</h4>
+								<ul class="list-inline social-buttons">
+									<li>
+										<a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>									
+										<a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
                             </div>
                         </li>
                     </ul>
