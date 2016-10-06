@@ -12,7 +12,7 @@
 					<div class="team-wrap">
 						<img src="{{page.main_image.getImage()}}" class="img-responsive" itemprop="image">
 						<div style="text-align:center">
-						{{include share-buttons}}
+						{{include social-buttons}}
 						</div>
 						<hr>
 				<div class="description" itemprop="specifications">{{page.specs}}</div>		

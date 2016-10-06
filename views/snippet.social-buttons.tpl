@@ -1,6 +1,6 @@
 <div class="mn-social-bottom-c">
 	<a class="social-button mn-social-bottom" href="https://www.facebook.com/sharer/sharer.php?u="><i class="fa fa-facebook"></i></a>
-	<a class="social-button mn-social-bottom" href="https://twitter.com/home?status="><i class="fa fa-twitter"></i></a>
+	<a class="social-button mn-social-bottom" href="https://twitter.com/home?status={{clippings.global_hashtag}} "><i class="fa fa-twitter"></i></a>
 	<a class="social-button mn-social-bottom" href="https://www.linkedin.com/shareArticle?mini=true&url="><i class="fa fa-linkedin"></i></a>
 	<a class="social-button mn-social-bottom" href="https://pinterest.com/pin/create/link/?url="><i class="fa fa-pinterest-p"></i></a>
 	<a class="email-button mn-social-bottom" href="mailto:?subject='{{page.seo_link_title}}'&body="><i class="fa fa-envelope"></i></a>

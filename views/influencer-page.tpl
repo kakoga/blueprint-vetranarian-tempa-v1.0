@@ -5,13 +5,13 @@
 		(** recipe: team > single team member view **)
 		<div class="influencer" itemscope="" itemtype="http://schema.org/Person">
 			<div class="people-share-buttons">
-				{{include share-buttons}}
+				{{include social-buttons}}
 			</div>
 			<h1 itemprop="name">Meet {{page.name}}</h1>
 			<h4 itemprop="jobTitle" class="section-subheading text-muted">{{page.title}}</h4>
 			<div class="row">
 				<div class="col-md-8">
-					<img src="{{page.image.getImage()}}" alt="photo of {{page.name}}" class="img-responsive" itemprop="image">
+					<img src="{{page.image.getImage()}}" alt="photo of{{page.name}}" class="img-responsive" itemprop="image">
 				</div>
 				<div class="col-md-4">
 					
