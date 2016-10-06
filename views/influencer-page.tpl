@@ -1,8 +1,7 @@
 
-<!-- Generic Page View -->
+<!-- People View -->
 <section>
 	<div class="container">
-		(** recipe: team > single team member view **)
 		<div class="influencer" itemscope="" itemtype="http://schema.org/Person">
 			<div class="people-share-buttons">
 				{{include social-buttons}}
@@ -11,7 +10,7 @@
 			<h4 itemprop="jobTitle" class="section-subheading text-muted">{{page.title}}</h4>
 			<div class="row">
 				<div class="col-md-8">
-					<img src="{{page.image.getImage()}}" alt="photo of{{page.name}}" class="img-responsive" itemprop="image">
+					<img src="{{page.image.getImage()}}" alt="photo of {{page.name}}" class="img-responsive" itemprop="image">
 				</div>
 				<div class="col-md-4">
 					
@@ -23,7 +22,9 @@
 					<a href="{{product.where_to_buy_link}}" class="pull-right btn btn-primary btn-sm"><span class="fa fa-shopping-cart"></span> Buy</a>
 					
 					<h6>{{product.name}}</h6>
-					<a href="{{product.getUrl()}}"><img src="{{product.main_image.getImage()}}" class="img-responsive"></a>
+					<a href="{{product.getUrl()}}">
+						<img src="{{product.main_image.getImage()}}" alt="{{product.name}} product image" class="img-responsive">
+					</a>
 					{{end-each}}
 				</div>
 			</div>
