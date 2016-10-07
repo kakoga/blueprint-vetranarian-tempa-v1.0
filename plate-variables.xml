@@ -123,31 +123,16 @@
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[rgba(255,255,255,0)]]></value>
+			<value><![CDATA[#323232]]></value>
 		</color>
-		<text name="nav-height" name_friendly="Navigation Height">		
-			<category>4</category>
-			<description><![CDATA[The visited color for links]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[30px]]></value>
-		</text>
-		<font_picker name="nav-font" name_friendly="Navigation Font">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA['Arial', 'Arial', 'Helvetica', 'sans-serif']]></value>
-		</font_picker>
+	
 		<color name="nav-font-color" name_friendly="Navigation Font Color">		
 			<category>4</category>
 			<description><![CDATA[NULL]]></description>
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
-			<value><![CDATA[#707070]]></value>
+			<value><![CDATA[#FFFFFF]]></value>
 		</color>
 		<text name="nav-font-size" name_friendly="Navigation Font Size">		
 			<category>4</category>
@@ -157,115 +142,6 @@
 			<locked>0</locked>
 			<value><![CDATA[14px]]></value>
 		</text>
-		<text name="nav-link-padding-left" name_friendly="Navigation Link Padding Left">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[40px]]></value>
-		</text>
-		<text name="nav-link-padding-right" name_friendly="Navigation Link Padding Right">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[2px]]></value>
-		</text>
-		<color name="nav-hover-font-color" name_friendly="Navigation Hover Font Color">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#2b2b2b]]></value>
-		</color>
-		<color name="nav-hover-bg-color" name_friendly="Navigation Hover Background Color">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[rgba(255,255,255,0)]]></value>
-		</color>
-		<dropdown name="nav-transition-speed" name_friendly="Navigation Transition Speed">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-			<value><![CDATA[250ms]]></value>
-		</dropdown>
-		<transition_type name="nav-transition-type" name_friendly="Navigation Transition Type">		
-			<category>4</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<options>
-				
-			</options>
-			<value><![CDATA[ease]]></value>
-		</transition_type>
-		<color name="link-color" name_friendly="Link Color">		
-			<category>3</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#4eabed]]></value>
-		</color>
-		<color name="link-hover-color" name_friendly="Link Hover Color">		
-			<category>3</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>5</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#297ac2]]></value>
-		</color>
-		<color name="link-visited-color" name_friendly="Link Visited Color">		
-			<category>3</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>10</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#4eabed]]></value>
-		</color>
-		<color name="link-active-color" name_friendly="Link Active Color">		
-			<category>3</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>15</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[#297ac2]]></value>
-		</color>
-		<dropdown name="link-transition-speed" name_friendly="Link Transition Speed">		
-			<category>3</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>20</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<options>
-				<option description="No transition" value="0ms" />
-				<option description="50ms" value="50ms" />
-				<option description="100ms" value="100ms" />
-				<option description="250ms" value="250ms" />
-				<option description="500ms" value="500ms" />
-				<option description="1 second" value="1000ms" />
-			</options>
-			<value><![CDATA[250ms]]></value>
-		</dropdown>
 		<font_picker name="default-font" name_friendly="Main Body Font">		
 			<category>2</category>
 			<description><![CDATA[NULL]]></description>
