@@ -385,27 +385,6 @@
 			<locked>0</locked>
 			<value><![CDATA[16px]]></value>
 		</text>
-		<text name="body-bg-image-position" name_friendly="Body Background Image Position">		
-			<category>1</category>
-			<description><![CDATA[NULL]]></description>
-			<sort>20</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[top left]]></value>
-		</text>
-		<dropdown name="body-bg-image-attachment" name_friendly="Body Background Image Attachment">		
-			<category>1</category>
-			<description><![CDATA[<strong>Fixed</strong> will leave the background image where it is as you scroll. <strong>Scroll</strong> will scroll the background image as you scroll.]]></description>
-			<sort>15</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			
-			<options>
-				<option description="Scroll with you" value="scroll" />
-				<option description="Fixed image" value="fixed" />
-			</options>
-			<value><![CDATA[scroll]]></value>
-		</dropdown>
 		<text name="default-spacing" name_friendly="Default Spacing">		
 			<category>1</category>
 			<description><![CDATA[This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui]]></description>
