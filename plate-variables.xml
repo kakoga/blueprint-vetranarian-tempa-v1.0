@@ -483,7 +483,7 @@
 			<locked>0</locked>
 			<value><![CDATA[#000000]]></value>
 		</color>
-		<dropdown name="grid-gutter-width" name_friendly="Grid Gutter Width">		
+		<dropdown name="grid-gutter-width" name_friendly="Grid Gutter Width (For Zesty.io recipes)">		
 			<category>8</category>
 			<description><![CDATA[NULL]]></description>
 			<sort>1</sort>
@@ -510,7 +510,7 @@
 			</options>
 			<value><![CDATA[2%]]></value>
 		</dropdown>
-		<text name="responsive-grid-margin-bottom" name_friendly="Responsive Grid Margin Bottom">		
+		<text name="responsive-grid-margin-bottom" name_friendly="Responsive Grid Margin Bottom (For Zesty.io recipes)">		
 			<category>8</category>
 			<description><![CDATA[NULL]]></description>
 			<sort>1</sort>
@@ -518,7 +518,7 @@
 			<locked>0</locked>
 			<value><![CDATA[0px]]></value>
 		</text>
-		<dropdown name="responsive-break-down" name_friendly="Responsive Breakdown">		
+		<dropdown name="responsive-break-down" name_friendly="Responsive Breakdown (For Zesty.io recipes)">		
 			<category>8</category>
 			<description><![CDATA[This tells the grid to split columns down immediately to 1 column, or attempt to line them up]]></description>
 			<sort>1</sort>
