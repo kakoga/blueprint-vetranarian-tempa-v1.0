@@ -37,15 +37,7 @@
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
 			<value><![CDATA[#ffffff]]></value>
-		</color>
-		<image name="homepage-header-image" name_friendly="Homepage Background Image">		
-			<category>1</category>
-			<description><![CDATA[Homepage header background image.]]></description>
-			<sort>1</sort>
-			<edit_in_content>1</edit_in_content>
-			<locked>0</locked>
-			<value><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg]]></value>
-		</image>		
+		</color>		
 		<image name="homepage-map-image" name_friendly="Homepage Map Image">		
 			<category>1</category>
 			<description><![CDATA[Background that is underneath the contact form.]]></description>
@@ -127,7 +119,7 @@
 		</color>
 		<color name="nav-bg-color" name_friendly="Navigation Background Color">		
 			<category>4</category>
-			<description><![CDATA[The active color for links]]></description>
+			<description><![CDATA[Background color of navigation]]></description>
 			<sort>1</sort>
 			<edit_in_content>1</edit_in_content>
 			<locked>0</locked>
