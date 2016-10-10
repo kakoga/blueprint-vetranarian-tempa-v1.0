@@ -1,8 +1,8 @@
   <!-- Header -->
 	{{if {simple_blog_article.last().image} }}
-	<header style="background-image:url({{simple_blog_article.last().image.getImage()}})">      
+	<header style="background-image:url('{{simple_blog_article.last().image.getImage()}}')">      
 	{{else}}
-	<header style="background-image:url({{page.image1.getImage()}})">      
+	<header style="background-image:url('{{page.image1.getImage()}}')">      
 	{{end-if}}
         <div class="container">
             <div class="intro-text">
