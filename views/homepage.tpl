@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="row">
-				{{each social_feed as social limit 3 order by social.id DESC}}
+				{{each social_feed as social limit 3 order by z.sort}}
 				
 				{{include social-loop}}
 				
