@@ -45,7 +45,37 @@
         </item>
       </items>
     </templateset>
-    
+    <dataset name="homepage_slides" name_friendly="Homepage Slides" parent_item="zesty_home">
+        <fields>
+            <text name="title" name_friendly="Title" />
+            <text name="second_line" name_friendly="Second Line" />
+            <files name="background_video" name_friendly="Background Video" />
+            <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" />
+            <text name="button_text" name_friendly="Button Text" />
+            <internal_link name="links_to" name_friendly="Links To" />
+            <sort name="sort_order" name_friendly="Sort Order" />
+        </fields>
+        <items>
+            <item link_title="Care and Wellness for Your Pet" path_part="">
+                <title><![CDATA[Your product changes lives.]]></title>
+                <second_line><![CDATA[Your product changes lives.]]></second_line>
+                <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_video>
+                <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_image>
+                <button_text><![CDATA[Learn More]]></button_text>
+                <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[1]]></sort_order>
+            </item>
+             <item link_title="Special Offers" path_part="">
+                <title><![CDATA[Your product changes lives.]]></title>
+                <second_line><![CDATA[Your product changes lives.]]></second_line>
+                <background_video><![CDATA[]]></background_video>
+                <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_image>
+                <button_text><![CDATA[Click]]></button_text>
+                <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[1]]></sort_order>
+            </item>
+        </items>
+    </dataset>
     <templateset name="product_page" name_friendly="Product Page" view="products-page">
 		<fields>
 			<text name="title" name_friendly="Page Title" required="1" />
