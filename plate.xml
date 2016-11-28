@@ -47,13 +47,13 @@
     </templateset>
     <dataset name="homepage_slides" name_friendly="Homepage Slides" parent_item="zesty_home">
         <fields>
-            <text name="title" name_friendly="Title" />
-            <text name="second_line" name_friendly="Second Line" />
-            <files name="background_video" name_friendly="Background Video" />
-            <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" />
+            <text name="title" name_friendly="Title" list="1" />
+            <text name="second_line" name_friendly="Second Line"  list="1"/>
+            <files name="background_video" name_friendly="Background Video" list="1" />
+            <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" list="1" />
             <text name="button_text" name_friendly="Button Text" />
             <internal_link name="links_to" name_friendly="Links To" />
-            <sort name="sort_order" name_friendly="Sort Order" />
+            <sort name="sort_order" name_friendly="Sort Order" list="1" />
         </fields>
         <items>
             <item link_title="Care and Wellness for Your Pet" path_part="">

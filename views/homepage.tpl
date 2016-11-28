@@ -1,8 +1,22 @@
   <!-- Header -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <div class="slick-slider-container" >
-    <div id="slick-hero" style="background-image:url();" >
+    <div id="slick-hero"  > 
         {{ each homepage_slides as slide sort by slide.sort_order }}
+        {{ if {slide.background_video} }}
+        <div class=""  >
+            
+            <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getMediaURL()}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%"> 
+                <div class="container">
+                    <div class="intro-text">
+                        <div class="intro-lead-in">{{slide.title}}</div>
+                        <div class="intro-heading">{{slide.second_line}}</div>
+                        <a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        {{ else }}
         <div class=""  >
             
             <header style="background-image:url('{{slide.background_image.getImage(2500)}}')"> 
@@ -15,6 +29,7 @@
                 </div>
             </header>
         </div>
+        {{ end-if }}
         {{ end-each }}
     </div>
 </div>
@@ -35,7 +50,7 @@
             });
         });
     </script>
-
+{{ include script-bg-vid }}
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
