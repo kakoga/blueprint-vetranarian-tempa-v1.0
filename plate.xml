@@ -181,7 +181,6 @@
                 <fields>
                     <text name="page_title" name_friendly="Page Title" />
                     <images name="main_image" name_friendly="Main Image" />
-                    <text name="youtube_id" name_friendly="YouTube ID" />
                     <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                 </fields>
                 <items>
@@ -260,7 +259,7 @@
                 </fields>
             </dataset>
             <!-- need to figure out how to incorporate diff templateset into About Us -->
-            <templateset name="office_tour" name_friendly="Office Tour" view="office_tour">
+            <templateset name="office_tour" name_friendly="Office Tour" view="office_tour" parent_item="about-us">
                 <fields>
                     <text name="page" name_friendly="Page Title" />
                     <images name="main_image" name_friendly="Main Image" />
