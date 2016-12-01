@@ -256,6 +256,7 @@
                     <sort name="sort_order" name_friendly="Sort Order" />
                 </fields>
             </dataset>
+
             <templateset name="office_tour" name_friendly="Office Tour" view="office_tour">
                 <fields>
                     <text name="page" name_friendly="Page Title" />
@@ -264,7 +265,7 @@
                     <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                 </fields>
                 <items>
-                    <item link_title="Office Tour" path_part="office-tour" parent_item="about-us">
+                    <item link_title="Office Tour" path_part="office-tour" parent="about-us">
                         <page>Herbal It Misnomer</page>
                         <main_image>![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]</main_image>
                         <youtube_id>In Thin As</youtube_id>
@@ -280,8 +281,6 @@
                     <sort name="sort_order" name_friendly="Sort Order" />
                 </fields>
             </dataset>
-
-
 
             <templateset name="patient_resources" name_friendly="Patient Resources" view="new_patients">
                 <fields>
