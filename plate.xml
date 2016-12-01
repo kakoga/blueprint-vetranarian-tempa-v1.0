@@ -203,7 +203,16 @@
                     </item>
                 </items>
             </templateset>
-
+            <dataset name="Employees" name_friendly="Employees" parent_item="meet-the-team">
+                <fields>
+                    <text name="employee_first_name" name_friendly="Employee First Name" />
+                    <text name="Employee_last_name" name_friendly="Employee Last Name" />
+                    <images name="employee_photo" name_friendly="Employee Photo" />
+                    <wysiwyg_advanced name="Employee_bio" name_friendly="Employee Bio" />
+                    <yes_no name="staff_team_member_toggle" name_friendly="Staff Team Member Toggle" />
+                    <sort name="sort_order" name_friendly="Sort Order" />
+                </fields>
+            </dataset>
             <dataset name="client_testimonials" name_friendly="Client Testimonials" parent_item="testimonials">
                 <fields>
                     <text name="client_first_name" name_friendly="Client First Name" />
