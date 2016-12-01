@@ -425,7 +425,7 @@
                     <text name="page_title" name_friendly="Page Title" />
                 </fields>
                 <items>
-                    <item link_title="FAQ" path_part="faq" parent_item="resources">
+                    <item link_title="FAQ" path_part="faq" parent="resources">
                         <page_title>Form Powdered As</page_title>
                     </item>
                 </items>
