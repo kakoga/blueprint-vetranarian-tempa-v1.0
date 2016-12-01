@@ -178,6 +178,8 @@
             <templateset name="about_us" name_friendly="About Us" view="about_us">
                 <fields>
                     <text name="page_title" name_friendly="Page Title" />
+                    <images name="main_image" name_friendly="Main Image" />
+                    <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                 </fields>
                 <items>
                     <item link_title="About Us" path_part="about-us">
