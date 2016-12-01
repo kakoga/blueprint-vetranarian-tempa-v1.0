@@ -420,7 +420,7 @@
                     </item>
                 </items>
             </templateset>
-            <templateset name="faq" name_friendly="FAQ" view="faq">
+            <templateset name="faq" name_friendly="FAQ" view="faq" parent_item="resources">
                 <fields>
                     <text name="page_title" name_friendly="Page Title" />
                 </fields>
