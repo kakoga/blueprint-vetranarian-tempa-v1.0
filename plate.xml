@@ -183,6 +183,12 @@
                     <item link_title="About Us" path_part="about-us">
                         <page_title>Zesty Vet Clinic | About Us</page_title>
                     </item>
+                    <item link_title="Generic Page" path_part="generic-page-1" parent="about-us">
+                        <page_title>Generic Page 1</page_title>
+                    </item>
+                    <item link_title="Generic Page" path_part="generic-page-2" parent="generic-page-1">
+                        <page_title>Generic Page 2</page_title>
+                    </item>
                 </items>
             </templateset>
             <templateset name="patient_resources" name_friendly="Patient Resources" view="new_patients">
