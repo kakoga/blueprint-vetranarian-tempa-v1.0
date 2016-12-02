@@ -178,10 +178,17 @@
             <!-- 1. SIMPLE PAGE -->
             <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
               <fields>
-                  <text name="page_title" name_friendly="Page Title" />
-                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                  <textarea name="google_map_embed" name_friendly="Google Map Embed" />
+                <text name="page_title" name_friendly="Page Title" />
+                <images name="main_image" name_friendly="Main Image" />
+                <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
+              <items>
+                <item link_title="Simple Page" path_part="simple-page">
+                  <page_title>Used Sichuan As</page_title>
+                  <main_image>![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]</main_image>
+                  <body_text>&lt;h2&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/h2&gt; &lt;p&gt;It is also used as an herbal supplement, and was mentioned by Nicholas Culpeper in his Complete Herbal, 1653, as 'guinea pepper'[3] a misnomer for 'guiana pepper'&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Pepper' For&lt;/li&gt; &lt;li&gt;Herbal, In&lt;/li&gt; &lt;li&gt;Used It&lt;/li&gt; &lt;li&gt;Misnomer A&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;It is red colored when ripened to maturity, but also eaten while still green&lt;/p&gt; &lt;blockquote&gt;The fruits are generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same name&lt;/blockquote&gt; &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersCayenne is used in cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based sauce&lt;/p&gt;</body_text>
+                </item>
+              </items>
             </templateset>
             <!-- SIMPLE PAGE END -->
           <!-- 2. CONTACT US -->
