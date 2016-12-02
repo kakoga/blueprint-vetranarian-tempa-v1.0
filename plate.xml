@@ -326,8 +326,6 @@
             </dataset>
           <!-- PATIENT RESOURCES END -->
 
-
-
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
@@ -374,7 +372,31 @@
           </dataset>
           <!-- RESOURCES END -->
 
-          <!-- 4. SERVICES -->
+          <!-- 4. PROMOTIONS -->
+            <templateset name="promotions" name_friendly="Promotions" view="promotions">
+                <fields>
+                    <text name="page_title" name_friendly="Page Title" />
+                </fields>
+                <items>
+                    <item link_title="Promotions" path_part="promotions">
+                        <page_title>Thin As Sichuan</page_title>
+                    </item>
+                </items>
+            </templateset>
+            <!-- Promotions dataset -->
+            <dataset name="special_promotions" name_friendly="Special Promotions" parent_item="promotions">
+                <fields>
+                    <text name="promo_title" name_friendly="Promo Title" />
+                    <wysiwyg_advanced name="promo_description" name_friendly="Promo Description" />
+                    <images name="promo_image" name_friendly="Promo Image" />
+                    <text name="promo_code" name_friendly="Promo Code" />
+                    <files name="promo_print_coupon" name_friendly="Promo Print Coupon" />
+                    <sort name="sort_order" name_friendly="Sort Order" />
+                </fields>
+            </dataset>
+            <!-- PROMOTIONS END -->
+
+          <!-- 6. SERVICES -->
             <templateset name="services" name_friendly="Services" view="services">
                 <fields>
                     <text name="page_title" name_friendly="Page Title" />
@@ -395,27 +417,6 @@
                 </fields>
             </pageset>
           <!-- SERVICES END -->
-
-            <templateset name="promotions" name_friendly="Promotions" view="promotions">
-                <fields>
-                    <text name="page_title" name_friendly="Page Title" />
-                </fields>
-                <items>
-                    <item link_title="Promotions" path_part="promotions">
-                        <page_title>Thin As Sichuan</page_title>
-                    </item>
-                </items>
-            </templateset>
-            <dataset name="special_promotions" name_friendly="Special Promotions" parent_item="promotions">
-                <fields>
-                    <text name="promo_title" name_friendly="Promo Title" />
-                    <wysiwyg_advanced name="promo_description" name_friendly="Promo Description" />
-                    <images name="promo_image" name_friendly="Promo Image" />
-                    <text name="promo_code" name_friendly="Promo Code" />
-                    <files name="promo_print_coupon" name_friendly="Promo Print Coupon" />
-                    <sort name="sort_order" name_friendly="Sort Order" />
-                </fields>
-            </dataset>
 
         </ingredients>
     </plate>
