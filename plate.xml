@@ -326,28 +326,8 @@
             </dataset>
           <!-- PATIENT RESOURCES END -->
 
-          <!-- SERVICES -->
-            <templateset name="services" name_friendly="Services" view="services">
-                <fields>
-                    <text name="page_title" name_friendly="Page Title" />
-                </fields>
-                <items>
-                    <item link_title="Services" path_part="services">
-                        <page_title>Peppers Cultivar Cultivar</page_title>
-                    </item>
-                </items>
-            </templateset>
-            <!-- Services Pageset -->
-            <pageset name="vet_services" name_friendly="Vet Services" view="vet_services" parent_item="services">
-                <fields>
-                    <text name="page_title" name_friendly="Page Title" />
-                    <images name="main_image" name_friendly="Main Image" />
-                    <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                    <sort name="sort_order" name_friendly="Sort Order" />
-                </fields>
-            </pageset>
-          <!-- SERVICES END -->
-          
+
+
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
@@ -394,7 +374,27 @@
           </dataset>
           <!-- RESOURCES END -->
 
-
+          <!-- 4. SERVICES -->
+            <templateset name="services" name_friendly="Services" view="services">
+                <fields>
+                    <text name="page_title" name_friendly="Page Title" />
+                </fields>
+                <items>
+                    <item link_title="Services" path_part="services">
+                        <page_title>Peppers Cultivar Cultivar</page_title>
+                    </item>
+                </items>
+            </templateset>
+            <!-- Services Pageset -->
+            <pageset name="vet_services" name_friendly="Vet Services" view="vet_services" parent_item="services">
+                <fields>
+                    <text name="page_title" name_friendly="Page Title" />
+                    <images name="main_image" name_friendly="Main Image" />
+                    <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+                    <sort name="sort_order" name_friendly="Sort Order" />
+                </fields>
+            </pageset>
+          <!-- SERVICES END -->
 
             <templateset name="promotions" name_friendly="Promotions" view="promotions">
                 <fields>
