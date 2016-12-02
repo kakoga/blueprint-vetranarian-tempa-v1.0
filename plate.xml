@@ -175,11 +175,15 @@
                     </item>
                 </items>
             </dataset>
-
-
-
-
-
+            <!-- 1. SIMPLE PAGE -->
+            <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+                  <textarea name="google_map_embed" name_friendly="Google Map Embed" />
+              </fields>
+            </templateset>
+            <!-- SIMPLE PAGE END -->
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
@@ -421,6 +425,5 @@
               </fields>
           </dataset>
           <!-- ABOUT US END -->
-
         </ingredients>
     </plate>
