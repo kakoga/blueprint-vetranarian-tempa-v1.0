@@ -19,14 +19,9 @@
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
-            <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
-            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)"><![CDATA[#zestypetclinic]]></text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product references)"><![CDATA[Services]]></text>
-
-
-            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code" required="1" />
-            <text name="form_webhook" name_friendly="Form Webhook (optional)" />
-            <text name="form_button_text" name_friendly="Form Button Text"><![CDATA[Join]]></text>
+            <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
+            <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
+            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"  />
         </clippings>
         <ingredients>
 
@@ -162,6 +157,8 @@
                   <text name="image_title" name_friendly="Image Title" list="1" />
                   <images name="image" name_friendly="Image" list="1" />
                   <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
+                    <text name="button_text" name_friendly="Button Text" list="1" />
+                    <internal_link name="links_to" name_friendly="Links To" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
@@ -169,18 +166,24 @@
                     <image_title><![CDATA[Care Packages]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                     <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[1]]></sort_order>
                   </item>
                   <item>
                     <image_title><![CDATA[Day Care]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
                     <image_caption></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[2]]></sort_order>
                   </item>
                   <item>
                     <image_title><![CDATA[Services]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
                     <image_caption></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[3]]></sort_order>
                   </item>
                 </items>
