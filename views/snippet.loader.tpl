@@ -4,7 +4,7 @@
 	<div class="header-spacing" ></div>
 	{{ end-if }}
 	{{current_view}}
-
+			
 	{{include footer}}
 
 </div>
