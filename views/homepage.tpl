@@ -58,7 +58,7 @@
 
 <!-- Team Section (section 4) -->
 <section id="team" class="bg-light-gray">
-    <div class="container">
+    <div class="padding20" style="padding:20px;">
         <div class="row">
             {{ each homepage_squares as square sort by square.sort_order }}
             <div class="col-md-4">

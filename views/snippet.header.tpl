@@ -17,8 +17,8 @@
         </div>
         <a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
         <div class="number text-center" >
-            <h6>Call Now:</h6>
-            <h3><a href="tel:{{ contact_us.first().phone_number_one }}" >{{ contact_us.first().phone_number_one }}</a></h3>
+            <h6 class="hidden-sm-down" >Call Now:</h6>
+            <h3><a href="tel:{{ clippings.phone }}" >{{ clippings.phone }}</a></h3>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <!-- /.navbar-collapse -->

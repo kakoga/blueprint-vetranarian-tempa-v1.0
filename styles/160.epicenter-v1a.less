@@ -137,6 +137,11 @@ img {
         h6 {
             color:#fff;
             margin:4px 0;
+            
+            @media (max-width: 768px) {
+                display:none;
+                
+            }
         }
         h3 {
             margin:2px 0;
@@ -195,8 +200,11 @@ img {
     .nav {
         text-align:center;
         li {
-            float:none;
+            
+            @media(min-width:768px) {
+                float:none;
             display:inline-block;
+            }
             a {
                 .heading-font;
                 font-weight: 400;
@@ -226,8 +234,8 @@ img {
         background-color: @gray-darker !important;
     }
     &:not(.always-dark) { 
-        background:fade(@gray-dark,35%);
         @media(min-width:768px) {
+        background:fade(@gray-dark,35%);
             /*
             .brand-image{
             padding: 15px 20px !important;
