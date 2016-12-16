@@ -565,7 +565,6 @@
                   <page_title><![CDATA[Patient Forms]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text>
-                    <![CDATA[<h2>Patient Resources</h2>]]>
                     <![CDATA[<p>Please see a list of our most common forms below.
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
                   </body_text>
@@ -584,7 +583,7 @@
                   <page_title><![CDATA[Payment Options]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text>
-                    <![CDATA[<h2>Payment Options</h2>
+                    <![CDATA[
                     <p>We offer our clients a variety of payment options, including American Express and Discover. Please see a full list of all available options below.</p>]]>
                   </body_text>
               </item>
@@ -825,7 +824,7 @@
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-testimonials.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[]]>
+                        <![CDATA[See what our clients are saying:]]>
                     </body_text>
                   </item>
               </items>
