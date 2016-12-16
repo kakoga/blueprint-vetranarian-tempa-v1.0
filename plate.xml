@@ -235,6 +235,9 @@
           </fields>
           <items>
             <item>
+              <link_title></link_title>
+              <link></link>
+              <sort_order></sort_order>
             </item>
             <item>
             </item>
