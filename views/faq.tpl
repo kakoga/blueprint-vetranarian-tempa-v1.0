@@ -8,7 +8,12 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
-
+					{{ each frequently_asked_questions as qna sort by qna.sort_order }}
+					<div class="row">
+						<p><strong>{{ qna.question }}</strong></p>
+						<p>{{ qna.answer }}</p>
+					</div>
+					{{ end-each }}
 				</div>
 				<div class="col-md-3" >
 					{{ include sectionlinks }}
