@@ -17,9 +17,10 @@
 				<p>{{ contact_us.first().phone_number_two }}<p>
 			</div>
 			<div class="col-md-3 basic">
+				<span class="text-right"><h6 class="basic">{{ contact_us.first().hours_title }}</h6>
 				{{ each hours_of_operation as hours sort by hours.sort_order}}
 				<p>{{ hours.day_of_week}} {{hours.open}}am - {{ hours.close}}pm</p>
-				{{ end-each }}
+				{{ end-each }}</span>
 			</div>
 			<div class="col-md-6 text-center">
 				{{ contact_us.first().google_map_embed }}
