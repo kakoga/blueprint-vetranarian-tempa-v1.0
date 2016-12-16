@@ -227,7 +227,8 @@
               </item>
           </items>
         </templateset>
-      
+        <dataset name="disclosure_links" name_friendly="Disclosure Links e.g. Terms of Use" parent_item="">
+        </dataset>
         <!-- GENERIC PAGE END  -->
 
           <!-- 2. CONTACT US -->
