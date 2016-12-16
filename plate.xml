@@ -471,20 +471,24 @@
           </dataset>
           <dataset name="external_links" name_friendly="External Links" parent_item="links">
             <fields>
-                <wysiwyg_advanced name="link_text" name_friendly="Link Text" list="1" />
+                <text name="link_title" name_friendly="Link Title" list="1" />
+                <textarea name="link_url" name_friendly="Link Url" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
               <item>
-                <link_text><![CDATA[<a href="http://www.akc.org/">American Kennel Club></a>]]></link_text>
+                <link_title><![CDATA[American Kennel Club]]></link_title>
+                <link_url><![CDATA[http://www.akc.org/]]></link_url>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
-                <link_text><![CDATA[<a href="http://cfa.org/">Cat Fanciers' Association</a>]]></link_text>
+                <link_title><![CDATA[Cat Fanciers' Association]]></link_title>
+                <link_url><![CDATA[http://cfa.org/]]></link_url>
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
-                <link_text><![CDATA[<a href="http://www.asih.org/">American Society of Ichthyologists and Heretologists</a>]]></link_text>
+                <link_title><![CDATA[American Society of Ichthyologists and Heretologists]]></link_title>
+                <link_url><![CDATA[http://www.asih.org/]]></link_url>
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
             </items>
