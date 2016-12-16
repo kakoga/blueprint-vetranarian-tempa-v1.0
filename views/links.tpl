@@ -10,7 +10,7 @@
 					</div>
 					{{ each external_links as link sort by link.sort_order }}
 					<ul>
-						<li><a href=""></a></li>
+						<li><a href="{{ link.link_url }}">{{ link.link_title }}</a></li>
 					</ul>
 					{{ end-each }}
 				</div>
