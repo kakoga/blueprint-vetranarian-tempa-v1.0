@@ -21,7 +21,7 @@
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
-            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"  />
+            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
         </clippings>
         <ingredients>
 
