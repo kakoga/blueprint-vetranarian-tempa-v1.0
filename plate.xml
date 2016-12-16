@@ -229,7 +229,14 @@
         </templateset>
         <dataset name="disclosure_links" name_friendly="Disclosure Links e.g. Terms of Use" parent_item="">
           <fields>
+            <text name="link_title" name_friendly="Link Title" list="1" />
+            <text name="link" name_friendly="Link" list="1" />
+            <sort name="sort_order" name_friendly="Sort Order" list="1" />
           </fields>
+          <items>
+            <item>
+            </item>
+          </items>
         </dataset>
         <!-- GENERIC PAGE END  -->
 
