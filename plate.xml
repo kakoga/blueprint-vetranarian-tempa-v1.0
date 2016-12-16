@@ -210,7 +210,7 @@
           <!-- SIMPLE PAGE END -->
 
           <!-- GENERIC PAGE: PRIVACY POLICY, ToS, THANK YOU -->
-          <templateset name="generic-page" name_friendly="Generic Page" view="generic_page">
+          <templateset name="generic-page" name_friendly="Generic Page" view="generic_page" active="-1">
             <fields>
               <text name="title" name_friendly="Page Title (h1)" required="1" />
               <wysiwyg_advanced name="content" name_friendly="Page Content" />
