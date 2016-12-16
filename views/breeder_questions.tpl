@@ -8,7 +8,13 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
-
+					{{ each breeder_q as question sort by question.sort_order }}
+					<div class="row">
+						<p>{{ question.question }}</p>
+						<p>{{ question.answer }}</p>
+						<hr>
+					</div>
+					{{end-each }}
 				</div>
 				<div class="col-md-3" >
 					{{ include sectionlinks }}
