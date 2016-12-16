@@ -5,7 +5,7 @@
 <section id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 basic">
+			<div class="col-md-3 basic text-center">
 				<p>{{ contact_us.first().address_one }}</p>
 				<p>{{ contact_us.first().address_two }}</p>
 				<p>{{ contact_us.first().address_three }}</p>
@@ -17,10 +17,9 @@
 				<p>{{ contact_us.first().phone_number_two }}<p>
 			</div>
 			<div class="col-md-3 basic">
-			        <span class="text-right"><h6 class="basic">{{ contact_us.first().hours_title }}</h6>
 				{{ each hours_of_operation as hours sort by hours.sort_order}}
 				<p>{{ hours.day_of_week}} {{hours.open}}am - {{ hours.close}}pm</p>
-				{{ end-each }}</span>
+				{{ end-each }}
 			</div>
 			<div class="col-md-6 text-center">
 				{{ contact_us.first().google_map_embed }}
