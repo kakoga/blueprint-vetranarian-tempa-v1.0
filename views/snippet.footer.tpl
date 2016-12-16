@@ -5,7 +5,7 @@
 <section id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 basic text-center">
+			<div class="col-md-3 basic">
 				<p>{{ contact_us.first().address_one }}</p>
 				<p>{{ contact_us.first().address_two }}</p>
 				<p>{{ contact_us.first().address_three }}</p>
