@@ -9,9 +9,11 @@
 						{{ page.body_text }}
 					</div>
 					{{ each frequently_asked_questions as qna sort by qna.sort_order }}
-					<div class="row">
-						<p><strong>{{ qna.question }}</strong></p>
-						<p>{{ qna.answer }}</p>
+					<div class="spacer">
+						<div class="row">
+							<p class="large"><strong>{{ qna.question }}</strong></p>
+							<p>{{ qna.answer }}</p>
+						</div>
 					</div>
 					{{ end-each }}
 				</div>
