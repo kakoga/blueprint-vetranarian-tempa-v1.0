@@ -228,6 +228,8 @@
           </items>
         </templateset>
         <dataset name="disclosure_links" name_friendly="Disclosure Links e.g. Terms of Use" parent_item="">
+          <fields>
+          </fields>
         </dataset>
         <!-- GENERIC PAGE END  -->
 
