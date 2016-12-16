@@ -227,11 +227,7 @@
               </item>
           </items>
         </templateset>
-        <dataset name="disclosure_links" name_friendly="Disclosure Links e.g. privacy policy, terms of use" />
-          <fields>
-            <text name="link_title" name_friendly="Link Title" list="1" />
-          </fields>
-        </dataset>
+      
         <!-- GENERIC PAGE END  -->
 
           <!-- 2. CONTACT US -->
