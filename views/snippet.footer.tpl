@@ -48,10 +48,7 @@
 			<div class="col-md-4">
 				<ul class="list-inline quicklinks">
 					{{ each disclosure_links as link sort by link.sort_order }}
-					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a>
-					</li>
-					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a>
-					</li>
+					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a></li>
 					{{ end-each }}
 				</ul>
 			</div>
