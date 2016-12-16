@@ -8,7 +8,13 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
-
+					{{ each career_opportunities as job sort by job.sort_order }}
+					<div class="row">
+						<h5>{{ job.job_title }}</h5>
+						<h6>{{ job.job_location }}</h6>
+						{{ job.job_description}}
+					</div>
+					{{ end-each }}
 				</div>
 				<div class="col-md-3" >
 					{{ include sectionlinks }}
