@@ -47,10 +47,12 @@
 			</div>
 			<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="/privacy-policy/">Privacy Policy</a>
+					{{ each disclosure_links as link sort by link.sort_order }}
+					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a>
 					</li>
-					<li><a href="/terms-of-use/">Terms of Use</a>
+					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a>
 					</li>
+					{{ end-each }}
 				</ul>
 			</div>
 		</div>
