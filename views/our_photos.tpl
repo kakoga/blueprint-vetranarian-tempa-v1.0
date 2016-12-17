@@ -8,6 +8,13 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
+					{{ each about_us_photos as picture sort by picture.sort_order }}
+					<div class="row">
+						<div class="col-md-4">
+							{{ picture.about_us_photo.getImage() }}
+							{{ picture.photo_title }}
+							{{ picture.photo_description }}
+						</div>
 
 				</div>
 				<div class="col-md-3" >
