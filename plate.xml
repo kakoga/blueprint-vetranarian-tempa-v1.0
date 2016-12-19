@@ -1088,7 +1088,7 @@
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
-                        <![CDATA[<h2>Office Tour</h2></br><p>Welcome! Come take a tour of our state-of-the-art clinic!</p>]]>
+                        <![CDATA[<p>Welcome! Come take a tour of our state-of-the-art clinic!</p>]]>
                       </body_text>
                   </item>
               </items>
@@ -1106,21 +1106,21 @@
                 <item>
                   <photo_title><![CDATA[Waiting Area]]></photo_title>
                   <photo_category><![CDATA[front]]></photo_category>
-                  <office_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></office_photo>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-front-office.jpg]]></office_photo>
                   <photo_description><![CDATA[<p>Reception Desk</p>]]></photo_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
-                  <photo_title><![CDATA[Operating Room]]></photo_title>
-                  <photo_category><![CDATA[operation]]></photo_category>
-                  <office_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></office_photo>
+                  <photo_title><![CDATA[Back Office]]></photo_title>
+                  <photo_category><![CDATA[Surgery on one of our patients]]></photo_category>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photos-back-office.jpg]]></office_photo>
                   <photo_description><![CDATA[<p>State-of-the-art operating room</p>]]></photo_description>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[Exam Room]]></photo_title>
                   <photo_category><![CDATA[exam]]></photo_category>
-                  <office_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></office_photo>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-exam-room.JPG]]></office_photo>
                   <photo_description><![CDATA[<p>Cozy exam rooms.</p>]]></photo_description>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>

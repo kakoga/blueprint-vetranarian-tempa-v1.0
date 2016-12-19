@@ -8,14 +8,19 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
-					{{ each about_us_photos as picture sort by picture.sort_order }}
 					<div class="row">
+						{{ each about_us_photos as picture sort by picture.sort_order }}
+						{{ if {index} % 3 == 1 && $count != 1 }}
+					</div>
+					<div class="row">
+						{{ end-if }}
 						<div class="col-md-4">
-							{{ picture.about_us_photo.getImage() }}
-							{{ picture.photo_title }}
-							{{ picture.photo_description }}
+							<img src ="{{ picture.about_us_photo.getImage() }}" alt="{{picture.title}} photo">
+							<p class="large">{{ picture.photo_title }}</p>
+							<p>{{ picture.photo_description }}</p>
 						</div>
-
+						{{ end-each }}
+					</div>
 				</div>
 				<div class="col-md-3" >
 					{{ include sectionlinks }}
