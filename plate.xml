@@ -210,14 +210,14 @@
           <!-- SIMPLE PAGE END -->
 
           <!-- GENERIC PAGE: PRIVACY POLICY, ToS, THANK YOU -->
-          <templateset name="generic-page" name_friendly="Generic Page" view="generic_page" active="-1">
+          <templateset name="generic-page" name_friendly="Generic Page" view="generic_page">
             <fields>
               <text name="title" name_friendly="Page Title (h1)" required="1" />
               <wysiwyg_advanced name="content" name_friendly="Page Content" />
             </fields>
             <!-- ** need to hide from top nav -->
             <items>
-              <item link_title="Privacy Policy" path_part="privacy-policy" active="">
+              <item link_title="Privacy Policy" path_part="privacy-policy" active="-1">
                 <title><![CDATA[Privacy Policy]]></title>
                 <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
               </item>
