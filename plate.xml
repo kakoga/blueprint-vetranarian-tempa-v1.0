@@ -563,7 +563,7 @@
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                 <dropdown name="test" name_friendly="test" options="facebook:Facebook;twitter:Twitter;" />
-                <yes_no name="test_toggle" name_friendly="test toggle" options="[0]:Yes;[1]:No;" />
+                <yes_no name="test_toggle" name_friendly="test toggle" options="0:Yes;1:No;" />
 
             </fields>
             <items>
