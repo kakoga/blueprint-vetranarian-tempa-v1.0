@@ -562,7 +562,7 @@
                 <text name="page_title" name_friendly="Page Title" required="1" />
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                <dropdown name="test" name_friendly="test" options="thistwo" />
+                <dropdown name="test" name_friendly="test" options="this,two" />
 
             </fields>
             <items>
