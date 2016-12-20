@@ -24,10 +24,26 @@
 							<label for="exampleInputEmail2">Email</label>
 							<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
 						</div>
+						<div class="form-group col-xs-12">
+							<label for="exampleInputName2">Street Address</label>
+							<input type="text" class="form-control" id="exampleInputName2" placeholder="Street Address">
+						</div>
+						<div class="form-group col-xs-4">
+							<label for="exampleInputName2">City</label>
+							<input type="text" class="form-control" id="exampleInputName2" placeholder="City">
+						</div>
+						<div class="form-group col-xs-4">
+							<label for="exampleInputName2">State</label>
+							<input type="text" class="form-control" id="exampleInputName2" placeholder="State">
+						</div>
+						<div class="form-group col-xs-4">
+							<label for="exampleInputName2">Zip Code</label>
+							<input type="text" class="form-control" id="exampleInputName2" placeholder="Zip Code">
+						</div>
 						<div class="row"></div>
 						<h5>Pet Information</h5>
 						<hr>
-						<!-- Pet 1 -->
+					<!-- Pet 1 -->
 						<div class="form-group col-xs-4">
 							<label for="exampleInputName2"> Pet's Name</label>
 							<input type="text" class="form-control" id="exampleInputName2" placeholder="Spot">
@@ -56,7 +72,7 @@
 								<option>N/A</option>
 							</select>
 						</div>
-						<!-- Pet 2 -->
+					<!-- Pet 2 -->
 						<div class="form-group col-xs-4">
 							<label for="exampleInputName2"> Pet's Name</label>
 							<input type="text" class="form-control" id="exampleInputName2" placeholder="Spot">
@@ -86,7 +102,7 @@
 								<option>N/A</option>
 							</select>
 						</div>
-						<!-- Pet 3 -->
+					<!-- Pet 3 -->
 						<div class="form-group col-xs-4">
 							<label for="exampleInputName2"> Pet's Name</label>
 							<input type="text" class="form-control" id="exampleInputName2" placeholder="Spot">
