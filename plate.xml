@@ -569,7 +569,7 @@
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
                   <page_title><![CDATA[Patient Forms]]></page_title>
-                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-main-image.jpg]]></main_image>
                   <body_text>
                     <![CDATA[<p>Please see a list of our most common forms below.
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
@@ -628,9 +628,10 @@
           </dataset>
           <dataset name="custom_form_fields" name_friendly="Custom Form Fields" parent_item="patient-forms">
             <fields>
-              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" />
-              <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;" />
-              <sort name="sort_order" name_friendly="Sort Order" />
+              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" list="1"/>
+              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" list="1" />
+              <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;"  list="1"/>
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
