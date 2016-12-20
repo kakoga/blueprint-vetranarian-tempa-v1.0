@@ -562,8 +562,7 @@
                 <text name="page_title" name_friendly="Page Title" required="1" />
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                <dropdown name="test" name_friendly="test" datatype_options="this,that"  />
-                <dropdown name="test2" name_friendly="test2" options="this2,that2"  />
+                <dropdown name="test_two" name_friendly="test2" options="this2" options_friendly="this2" />
 
             </fields>
             <items>
@@ -574,8 +573,7 @@
                     <![CDATA[<p>Please see a list of our most common forms below.
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
                   </body_text>
-                  <test><![CDATA[this]]></test>
-                  <test2><![CDATA[that2]]></test2>
+                  <test_two><![CDATA[this2]]></test_two>
               </item>
             </items>
           </templateset>
