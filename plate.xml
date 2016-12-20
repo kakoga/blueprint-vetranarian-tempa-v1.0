@@ -562,7 +562,9 @@
                 <text name="page_title" name_friendly="Page Title" required="1" />
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                <dropdown name="test" name_friendly="test" options=""  />
+                <dropdown name="test" name_friendly="test" datatype_options="this,that"  />
+                <dropdown name="test2" name_friendly="test2" options="this2,that2"  />
+
             </fields>
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
@@ -572,12 +574,12 @@
                     <![CDATA[<p>Please see a list of our most common forms below.
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
                   </body_text>
-                  <test><![CDATA[It is generally rated at 30,000 to 50,000 Scoville units]]></test>
-                  <test><![CDATA[testtest]]></test>
+                  <test><![CDATA[this]]></test>
+                  <test2><![CDATA[that2]]></test2>
               </item>
             </items>
-            <!-- 5.2 Payment Options -->
           </templateset>
+            <!-- 5.2 Payment Options -->
           <templateset name="payment_options" name_friendly="Payment Options" view="payment_options" parent_item="patient-resources">
             <fields>
                 <text name="page_title" name_friendly="Page Title" required="1" />
@@ -652,6 +654,7 @@
                 </item>
               </items>
           </dataset>
+
           <!-- PATIENT RESOURCES END -->
 
           <!-- 6. SERVICES -->
