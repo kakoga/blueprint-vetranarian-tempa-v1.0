@@ -99,15 +99,15 @@
 						{{ end-if }}
 						{{ each custom_form_fields as form sort by form.sort_order }}
 						<!-- name/text/toggle -->
-						{{ if {custom_form_fields.first().field_type_toggle} == 0 }}
+						{{ if {form.field_type_toggle} == 0 }}
 						<div class="form-group">
-							<label for="set.name">{{ form.custom_form_name }}</label>
-							<input type="text" class="form-control" id="set.name_field" />
+							<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
+							<input name="{{ form.custom_form_name }}" type="text" class="form-control" id="id{{form.zid}}" />
 						</div>
 						{{ else }}
 						<div class="form-group">
-							<label for="set.name_field">{{ form.custom_form_name }}</label>
-							<textarea class="form-control" id="set.name_field" rows="3"></textarea>
+							<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
+							<textarea name="{{ form.custom_form_name }}" class="form-control" id="id{{form.zid}}" rows="3"></textarea>
 						</div>
 						{{ end-if }}
 						{{ end-each }}

@@ -575,7 +575,6 @@
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
                   </body_text>
                   <default_fields><![CDATA[patient_basic]]></default_fields>
-                  <test_toggle><![CDATA[0]]></test_toggle>
               </item>
             </items>
           </templateset>
@@ -628,11 +627,12 @@
           </dataset>
           <dataset name="custom_form_fields" name_friendly="Custom Form Fields" parent_item="patient-forms">
             <fields>
-              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" list="1"/>
-              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" list="1" />
+              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1"/>
+              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1" />
               <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;"  list="1"/>
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
+            <!-- add example comment field in -->
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
