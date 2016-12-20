@@ -198,7 +198,7 @@
               <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
             </fields>
             <items>
-              <item link_title="Simple Page" path_part="simple-page">
+              <item link_title="Simple Page" path_part="simple-page" hidden="true">
                 <page_title><![CDATA[Simple Page]]></page_title>
                 <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                 <body_text>
@@ -221,7 +221,7 @@
                 <title><![CDATA[Privacy Policy]]></title>
                 <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
               </item>
-              <item link_title="Terms of Use" path_part="terms-of-use" active="">
+              <item link_title="Terms of Use" path_part="terms-of-use" hidden="true">
                 <title><![CDATA[Terms of Use]]></title>
                 <content><![CDATA[See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a>]]></content>
               </item>
