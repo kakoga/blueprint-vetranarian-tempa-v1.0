@@ -633,6 +633,13 @@
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <!-- add example comment field in -->
+            <items>
+              <item>
+                <custom_field_name><![CDATA[Comments]]></custom_field_name>
+                <field_type_toggle><![CDATA[1]]></field_type_toggle>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
