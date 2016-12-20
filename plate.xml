@@ -563,7 +563,7 @@
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                 <dropdown name="default_fields" name_friendly="Default Fields" options="patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
-                <yes_no name="test_toggle" name_friendly="test toggle" options="0:No;1:Yes;" />
+
 
             </fields>
             <items>
@@ -625,6 +625,13 @@
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
+          </dataset>
+          <dataset name="custom_form_fields" name_friendly="Custom Form Fields" parent_item="patient-forms">
+            <fields>
+              <text name="custom_form_name" name_friendly="Custom Form Name" required="1" />
+              <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;" />
+              <sort name="sort_order" name_friendly="Sort Order" />
+            </fields>
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
