@@ -562,7 +562,7 @@
                 <text name="page_title" name_friendly="Page Title" required="1" />
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-                <dropdown name="test_two" name_friendly="test two" options="thistwo" />
+                <dropdown name="test" name_friendly="test" options="thistwo" />
 
             </fields>
             <items>
@@ -573,7 +573,7 @@
                     <![CDATA[<p>Please see a list of our most common forms below.
                     Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
                   </body_text>
-                  <test_two><![CDATA[thistwo]]></test_two>
+                  <test><![CDATA[thistwo]]></test>
               </item>
             </items>
           </templateset>
