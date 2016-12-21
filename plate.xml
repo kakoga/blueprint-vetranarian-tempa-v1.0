@@ -647,13 +647,13 @@
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
                   <text name="payment_type" name_friendly="Payment Type" list="1" />
-                  <image name="image" name_friendly="Image" list="1" />
+                  
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
                 <item>
                   <payment_type><![CDATA[Visa]]></payment_type>
-                  
+
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
