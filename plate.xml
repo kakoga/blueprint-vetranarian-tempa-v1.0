@@ -647,7 +647,7 @@
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
                   <text name="payment_type" name_friendly="Payment Type" list="1" />
-                  
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
