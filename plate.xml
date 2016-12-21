@@ -575,8 +575,8 @@
                   <body_text>
                     <![CDATA[Please find most of our patient forms below.]]>
                   </body_text>
-                  <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click on the form icon to download a PDF.]]></download_form_note>
-                  <embedded_form_instrux><![CDATA[Please fill out this form for doggy daycare.]]></embedded_form_instrux>
+                  <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click the PDF icon to download.]]></download_form_note>
+                  <embedded_form_instrux><![CDATA[If you're interested in Doggy Day Care, please make an appointment and then fill out the form below.]]></embedded_form_instrux>
                   <default_fields><![CDATA[patient_basic]]></default_fields>
               </item>
             </items>
