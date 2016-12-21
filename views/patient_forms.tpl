@@ -8,6 +8,14 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
+					<div class="row">
+						{{ each online_forms as forms sort by forms.sort_order }}
+						<div class="col-xs-6">
+							{{ forms.form_title }}
+							{{ forms.form_description }}
+							<a href="{{ forms.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
+						</div>
+					</div>
 
 					<form class="form-group">
 						<div class="row" >

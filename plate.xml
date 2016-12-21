@@ -573,10 +573,9 @@
                   <page_title><![CDATA[Patient Forms]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-main-image.jpg]]></main_image>
                   <body_text>
-                    <![CDATA[<p>Please see a list of our most common forms below.
-                    Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
+                    <![CDATA[Please find most of our patient forms below.]]>
                   </body_text>
-                  <download_form_note><![CDATA[Select the form that you need,  ]]></download_form_note>
+                  <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click on the form icon to download a PDF.]]></download_form_note>
                   <embedded_form_instrux><![CDATA[Please fill out this form for doggy daycare.]]></embedded_form_instrux>
                   <default_fields><![CDATA[patient_basic]]></default_fields>
               </item>
@@ -612,19 +611,19 @@
                 <item>
                   <form_title><![CDATA[New Patient Form]]></form_title>
                   <form_description><![CDATA[<p>All new patients will need to fill out this form.</p>]]></form_description>
-                  <form_pdf><![CDATA[]]></form_pdf>
+                  <form_pdf><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-sample.pdf]]></form_pdf>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <form_title><![CDATA[Anaesthesia Consent Form]]></form_title>
                   <form_description><![CDATA[<p>This for is required for any procedure that involves sedation.</p>]]></form_description>
-                  <form_pdf><![CDATA[]]></form_pdf>
+                  <form_pdf><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-sample.pdf]]></form_pdf>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <form_title><![CDATA[Boarding Consent Form]]></form_title>
                   <form_description><![CDATA[<p>This form is required every time you reserve a boarding space.</p>]]></form_description>
-                  <form_pdf><![CDATA[]]></form_pdf>
+                  <form_pdf><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-sample.pdf]]></form_pdf>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
