@@ -41,11 +41,11 @@
 								<h6 class="form-rows">Owner Information</h6>
 								<div class="form-group col-xs-6">
 									<label for="firstname">First Name</label>
-									<input type="text" name="first_name" class="form-control" id="firstname" placeholder="Jane">
+									<input type="text" name="first_name" class="form-control required" id="firstname" placeholder="Jane">
 								</div>
 								<div class="form-group col-xs-6">
 									<label for="lastname">Last Name</label>
-									<input type="text" name="last_name" class="form-control" id="lastname" placeholder="Doe">
+									<input type="text" name="last_name" class="form-control required" id="lastname" placeholder="Doe">
 								</div>
 								<div class="form-group col-xs-6">
 									<label for="email">Email</label>
@@ -53,53 +53,53 @@
 								</div>
 								<div class="form-group col-xs-6">
 									<label for="phone">Phone</label>
-									<input type="tel" name="phone" class="form-control" id="phone" placeholder="888.555.5555">
+									<input type="tel" name="phone" class="form-control required" id="phone" placeholder="888.555.5555">
 								</div>
 								{{ if {page.default_fields} == 'patient_address' }}
 								<div class="form-group col-xs-12">
 									<label for="streetaddress">Street Address</label>
-									<input type="text" name="streetaddress" class="form-control" id="streetaddress" placeholder="Street Address">
+									<input type="text" name="streetaddress" class="form-control required" id="streetaddress" placeholder="Street Address">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="city">City</label>
-									<input type="text" name="city" class="form-control" id="city" placeholder="City">
+									<input type="text" name="city" class="form-control required" id="city" placeholder="City">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="state">State</label>
-									<input type="text" name="state" class="form-control" id="state" placeholder="State">
+									<input type="text" name="state" class="form-control required" id="state" placeholder="State">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="zipcode">Zip Code</label>
-									<input type="text" name="zipcode" class="form-control" id="zipcode" placeholder="Zip Code">
+									<input type="text" name="zipcode" class="form-control required" id="zipcode" placeholder="Zip Code">
 								</div>
 								<div class="clear-fix"></div>
 								{{ else if {page.default_fields} == 'patient_address_and_pet_info' }}
 								<div class="form-group col-xs-12">
 									<label for="streetaddress">Street Address</label>
-									<input type="text" name="streetaddress" class="form-control" id="streetaddress" placeholder="Street Address">
+									<input type="text" name="streetaddress" class="form-control required" id="streetaddress" placeholder="Street Address">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="city">City</label>
-									<input type="text" name="city" class="form-control" id="city" placeholder="City">
+									<input type="text" name="city" class="form-control required" id="city" placeholder="City">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="state">State</label>
-									<input type="text" name="state" class="form-control" id="city" placeholder="State">
+									<input type="text" name="state" class="form-control required" id="city" placeholder="State">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="zipcode">Zip Code</label>
-									<input type="text" name="zipcode" class="form-control" id="ezipcode" placeholder="Zip Code">
+									<input type="text" name="zipcode" class="form-control required" id="ezipcode" placeholder="Zip Code">
 								</div>
 								<div class="clear-fix"></div>
 								<!-- Pet Info -->
 								<h6 class="form-rows">Pet Information</h6>
 								<div class="form-group col-xs-4">
 									<label for="petname"> Pet's Name</label>
-									<input type="text" name="petname"  class="form-control" id="petname" placeholder="Spot">
+									<input type="text" name="petname"  class="form-control required" id="petname" placeholder="Spot">
 								</div>
 								<div class="form-group col-xs-4">
 									<label for="petsspecies">Pet's Species</label>
-									<select class="form-control" id="petspecies">
+									<select class="form-control required" id="petspecies">
 										<option>Dog</option>
 										<option>Cat</option>
 										<option>Small Animal: rat, hamster, guinea pig</option>
@@ -108,14 +108,14 @@
 								</div>
 								<div class="form-group col-xs-2">
 									<label for="petssex">Pet's Sex</label>
-									<select class="form-control" name="spayneuter" id="petssex">
+									<select class="form-control required" name="petssex" id="petssex">
 										<option>Male</option>
 										<option>Female</option>
 									</select>
 								</div>
 								<div class="form-group col-xs-2">
 									<label for="spayneuter">Select One:</label>
-									<select class="form-control" name="spayneuter" id="spayneuter">
+									<select class="form-control required" name="spayneuter" id="spayneuter">
 										<option>Neutered</option>
 										<option>Spayed</option>
 										<option>N/A</option>
@@ -128,6 +128,7 @@
 						<div class="row">
 							<div class=" col-xs-12">
 								{{ each custom_form_fields as form sort by form.sort_order }}
+								<!-- name/text/toggle -->
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
 									<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
