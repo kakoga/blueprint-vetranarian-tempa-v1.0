@@ -553,6 +553,8 @@
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
                       <page_title><![CDATA[Patient Resources]]></page_title>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-main-image.jpeg]]></main_image>
+                      <body_text><![CDATA[<p>We strive to provide our clients with the best service and care. For your convenience we have our most common forms available for you to download and fill out prior to your appointment. We've also included information on our payment options.</p> ]]></body_text>
                   </item>
               </items>
           </templateset>
@@ -591,7 +593,7 @@
             <items>
               <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
                   <page_title><![CDATA[Payment Options]]></page_title>
-                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-main-image.jpeg]]></main_image>
                   <body_text>
                     <![CDATA[
                     <p>We offer our clients a variety of payment options, including American Express and Discover. Please see a full list of all available options below.</p>]]>
