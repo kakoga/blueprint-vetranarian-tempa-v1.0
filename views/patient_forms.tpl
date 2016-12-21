@@ -8,15 +8,22 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
+					<hr>
 					<div class="row">
-						{{ each online_forms as forms sort by forms.sort_order }}
-						<div class="col-xs-6">
-							{{ forms.form_title }}
-							{{ forms.form_description }}
-							<a href="{{ forms.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
-						</div>
+						{{ each online_forms as of sort by of.sort_order }}
+						{{ if {index} > 2 }}
 					</div>
-
+					<div class="row">
+						{{ end-if }}
+						<div class="col-xs-6">
+							<div class="form-rows">
+								<p class="large">{{ of.form_title }}</p>
+								<p>{{ of.form_description }}</p>
+								<a href="{{ of.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
+							</div>
+						</div>
+						{{ end-each }}
+					</div>
 					<form class="form-group">
 						<div class="row" >
 							<h5>Owner Information</h5>
