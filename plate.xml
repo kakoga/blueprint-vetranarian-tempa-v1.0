@@ -651,35 +651,6 @@
               </item>
             </items>
           </dataset>
-          <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
-              <fields>
-                  <text name="payment_type" name_friendly="Payment Type" list="1" />
-                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
-              </fields>
-              <items>
-                <item>
-                  <payment_type><![CDATA[Visa]]></payment_type>
-                  <sort_order><![CDATA[1]]></sort_order>
-                </item>
-                <item>
-                  <payment_type><![CDATA[Mastercard]]></payment_type>
-                  <sort_order><![CDATA[2]]></sort_order>
-                </item>
-                <item>
-                  <payment_type><![CDATA[American Express]]></payment_type>
-                  <sort_order><![CDATA[3]]></sort_order>
-                </item>
-                <item>
-                  <payment_type><![CDATA[Discover]]></payment_type>
-                  <sort_order><![CDATA[4]]></sort_order>
-                </item>
-                <item>
-                  <payment_type><![CDATA[Cash or Check]]></payment_type>
-                  <sort_order><![CDATA[5]]></sort_order>
-                </item>
-              </items>
-          </dataset>
-
           <!-- PATIENT RESOURCES END -->
 
           <!-- 6. SERVICES -->
@@ -960,7 +931,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <employee_category><![CDATA[598]]></employee_category>
+                  <employee_category><![CDATA[599]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -968,7 +939,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <employee_category><![CDATA[598]]></employee_category>
+                  <employee_category><![CDATA[599]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
