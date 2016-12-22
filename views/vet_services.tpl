@@ -4,7 +4,9 @@
 		<div class="body-content">
 			<div class="row">
 				<div class="col-md-9">
-					{{ page.page_title }}
+					<div class="title-border">
+						{{ page.page_title }}
+					</div>
 					{{ page.body_text }}
 				</div>
 				<div class="col-md-3" >
