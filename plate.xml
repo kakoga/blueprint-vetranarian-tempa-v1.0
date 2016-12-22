@@ -801,7 +801,7 @@
           </templateset>
 
           <!-- 7.1. Team -->
-          <templateset name="team" name_friendly="Team" view="meet_the_team" parent_item="about-us">
+          <templateset name="meet_the_team" name_friendly="Meet the Team" view="meet_the_team" parent_item="about-us">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
                   <images name="main_image" name_friendly="Main Image" limit="1" />
