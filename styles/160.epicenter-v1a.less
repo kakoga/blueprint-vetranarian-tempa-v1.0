@@ -6,7 +6,6 @@ body {
     .body-font;
 }
 .container {
-    background-color:@content-bg-color;
     @media (min-width: @container-large-desktop + @default-spacing ) {
         width: @container-large-desktop;
     }
@@ -63,34 +62,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    color: @h1-font-color;
-    font-size: @h1-font-size;
-    font-weight: @h1-font-weight;
+    font-size: @font-size-h1;
 }
 h2 {
-    color: @h2-font-color;
-    font-size: @h2-font-size;
-    font-weight: @h2-font-weight;
+    font-size: @font-size-h2;
 }
 h3 {
-    color: @h3-font-color;
-    font-size: @h3-font-size;
-    font-weight: @h3-font-weight;
+    font-size: @font-size-h3;
 }
 h4 {
-    color: @h4-font-color;
-    font-size: @h4-font-size;
-    font-weight: @h4-font-weight;
+    font-size:@font-size-h4;
 }
 h5 {
-    color: @h5-font-color;
-    font-size: @h5-font-size;
-    font-weight: @h5-font-weight;
+    font-size: @font-size-h5;
 }
 h6 {
-    color: @h6-font-color;
-    font-size: @h6-font-size;
-    font-weight: @h6-font-weight;
+    font-size: @font-size-h6;
 }
 
 img {
@@ -217,7 +204,7 @@ img {
                 .heading-font;
                 font-weight: 400;
                 letter-spacing: 1px;
-                color: @nav-font-color;
+                color: @navbar-default-link-color;
                 font-size: @nav-font-size;
                 margin: 0px;
                 &:hover,
@@ -239,11 +226,11 @@ img {
         background-color: darken(@theme-primary, 10%);
     }
     &.always-dark{
-        background-color: @gray-darker !important;
+        background-color: @navbar-default-bg !important;
     }
     &:not(.always-dark) { 
         @media(min-width:768px) {
-        background:fade(@gray-dark,35%);
+        background:fade(@navbar-default-bg,35%);
             /*
             .brand-image{
             padding: 15px 20px !important;
@@ -279,7 +266,7 @@ img {
         transition: padding 0.3s;
         border: none;
         &.always-dark{
-           background-color: @gray-darker !important;
+           background-color: @navbar-default-bg !important;
 
         }
 
@@ -301,7 +288,7 @@ img {
 
 @media(min-width:768px) {
     .navbar-custom.affix {
-        background-color: @gray-darker;
+        background-color: @navbar-default-bg;
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
@@ -970,12 +957,12 @@ ul.social-buttons {
 
 ::-moz-selection {
     text-shadow: none;
-    background: @theme-primary;
+    background: @brand-primary;
 }
 
 ::selection {
     text-shadow: none;
-    background: @theme-primary;
+    background: @brand-primary;
 }
 
 img::selection {
@@ -987,5 +974,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @theme-primary;
+    webkit-tap-highlight-color: @brand-primary;
 }
