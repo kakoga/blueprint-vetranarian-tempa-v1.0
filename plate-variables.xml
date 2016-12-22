@@ -126,7 +126,7 @@
             <dropdown name="headings-font-weight" name_friendly="Headings Font Weight">
                 <category>2</category>
                 <description>NULL</description>
-                <sort>12</sort>
+                <sort>10</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
                 <value>500</value>
@@ -145,7 +145,7 @@
             <text name="headings-line-height" name_friendly="Headings Line Height">
                 <category>2</category>
                 <description>NULL</description>
-                <sort>1</sort>
+                <sort>9</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
                 <value>1.3</value>
@@ -243,11 +243,11 @@
 
             <image name="body-bg-image" name_friendly="Body Background Image">
                 <category>1</category>
-                <description>Background that is underneath the contact form.</description>
-                <sort>2</sort>
+                <description></description>
+                <sort>12</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/map-image.png?raw=true</value>
+                <value></value>
             </image>
 
             <dropdown name="body-bg-image-repeat" name_friendly="Body Background Image Repeat">
