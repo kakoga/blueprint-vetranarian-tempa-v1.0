@@ -10,15 +10,15 @@
 					</div>
 					<div class="row">
 						{{ each about_us_videos as video sort by video.sort_order }}
-						{{ if {index} % 3 == 1 && $count != 1 }}
+						{{ if {index} % 2 == 1 && $count != 1 }}
 					</div>
 					<div class="row">
 						{{ end-if }}
-						<div class="col-md-4">
-							<iframe id="ytplayer" type="text/html" width="100%" src="https://www.youtube.com/embed/{{ page.youtube_id }}?rel=0" frameborder="0"></iframe>
+						<div class="col-md-6">
+							<iframe class="ytplayer" type="text/html" width="100%" src="https://www.youtube.com/embed/{{ video.youtube_id }}?rel=0" frameborder="0"></iframe>
 							<p class="large">{{ video.video_title }}</p>
-							<p>{{ video.video_description}}<p>
-							</div>
+							<p>{{ video.video_description}}</p>
+						</div>
 						{{ end-each }}
 					</div>
 				</div>

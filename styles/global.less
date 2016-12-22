@@ -38,6 +38,9 @@ a:hover {text-decoration:none;}
 		font-size: 35px;
 		margin-top: 0
 	}
+	p {
+		margin-bottom:1em;
+	}
 	.body-text {
 		ul li {
 			list-style:none;
@@ -143,7 +146,7 @@ a:hover {text-decoration:none;}
 
 }
 .dropdown-menu {
-	background-color: @gray;
+	background-color: fade(@navbar-default-bg,80%);
 
 @media(max-width:768px) {
 		width:100%;
@@ -154,7 +157,13 @@ a:hover {text-decoration:none;}
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+	display: block;
+	li {
+		display:block;
+		a {
+			display:block;
+		}
+	}
 }
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
@@ -179,7 +188,7 @@ a:hover {text-decoration:none;}
     top: 11px;
     left: -6px;
 }
-.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+.navbar-custom .nav li:hover, .navbar-custom .nav li:focus {
 	color: @gray-light;
 }
 #office-tour {
@@ -207,4 +216,21 @@ a:hover {text-decoration:none;}
 		height: 275px;
 		width: 100%;
 	}
+}
+
+#our-videos {
+	.ytplayer {
+		height:227px;
+
+		@media(max-width:@container-large-desktop) {
+			height:227/11.6vw;
+		}
+
+		@media(max-width:@md) {
+			height:52vw;
+		}
+	}
+}
+.form-rows {
+	* {margin-bottom:3px;}
 }

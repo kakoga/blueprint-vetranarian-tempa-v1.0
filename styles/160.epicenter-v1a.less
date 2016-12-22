@@ -30,8 +30,8 @@ body {
 
 p {
     font-size: @paragraph-font-size;
-    font-weight: @paragraph-font-weight;
-    line-height: @paragraph-line-height;
+    font-weight: 300;
+    line-height: @line-height-computed;
 }
 
 p.large {
@@ -216,7 +216,7 @@ img {
             }
         }
     }
-    .navbar-nav>.active>a {
+    .navbar-nav>.active>a, .navbar-nav ul a.at {
         border-radius: 0;
         color: white;
         background-color: @theme-primary;
