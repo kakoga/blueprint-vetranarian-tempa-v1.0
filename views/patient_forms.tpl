@@ -30,6 +30,7 @@
 						</div>
 						{{ end-each }}
 					</div>
+					{{ if {page.default_fields} != 'no_form' }}
 					<hr>
 					<div class="row">
 						<div class="col-md-12">
@@ -146,6 +147,7 @@
 							</div>
 						</div>
 					</form>
+					{{ end-if }}
 				</div>
 				<div class="col-md-3" >
 					{{ include sectionlinks }}

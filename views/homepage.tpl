@@ -56,7 +56,7 @@
 </script>
 {{ include script-bg-vid }}
 
-<!-- Team Section (section 4) -->
+<!-- Squares Section (section 4) -->
 <section id="team" class="bg-light-gray">
     <div class="padding20" style="padding:20px;">
         <div class="row">
