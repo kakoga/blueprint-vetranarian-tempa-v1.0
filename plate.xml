@@ -686,11 +686,14 @@
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" list="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" list="1" />
               </fields>
               <items>
                   <item link_title="Services" path_part="services">
                       <page_title><![CDATA[Our Services]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <body_text><![CDATA[<p>Pet Care Veterinary Hospital offers full-service veterinary care, from routine physical examinations and vaccinations to emergency and critical care. In addition, we offer unparalleled surgical, dental, digital X-ray, endoscopic, and ultrasound evaluation services. We place special emphasis on preventive medicine and individual wellness programs, such as senior care, healthy weight, and lifestyle.</p>
+                      <p>We believe that it is our job to not only treat your pets when they are ill, but to educate you on how to keep your best friends happy and healthy. Our vets have more than 80 years of combined veterinary experience. They have provided treatment for thousands of pets for a variety of problems and are constantly updating their skills through continuing education classes to learn about the latest innovations and medical protocols.</p>]]></body_text>
                   </item>
               </items>
           </templateset>
