@@ -1,9 +1,12 @@
 // Global Components
 
 body {
-    overflow-x: hidden;
-    background-color: @body-bg;
-    .body-font;
+	overflow-x: hidden;
+	background-color: @body-bg;
+	background-image:@body-bg-image;
+	background-repeat:@body-bg-image-repeat;
+	background-size:@body-bg-image-size;
+	.body-font;
 }
 .container {
     @media (min-width: @container-large-desktop + @default-spacing ) {
@@ -47,14 +50,15 @@ a.active {
 }
 
 a {
-    color: @theme-primary;
+    color: @link-color;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: darken(@theme-primary, 10%);
+    color: @link-hover-color;
+	text-decoration:@link-hover-decoration;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,7 +104,7 @@ img {
 // Restyled Primary Buttons
 
 .btn-primary {
-    .button-variant(white; @theme-primary; @theme-primary);
+    .button-variant(@btn-default-color; @btn-default-bg; @btn-hover-bg-color);
     .heading-font;
     font-weight: 700;
 }
