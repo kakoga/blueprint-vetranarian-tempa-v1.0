@@ -63,7 +63,7 @@
             {{ each homepage_squares as square sort by square.sort_order }}
             <div class="col-md-4">
                 <div class="square-wrap">
-                    <img src="{{ square.image.getImage() }}">
+                    <img src="{{ square.image.getImage(700,500,crop) }}">
                     <h3>{{ square.image_title }}</h3>
                     {{ if {square.button_text} }}
                     <a class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</a>

@@ -566,7 +566,8 @@
                 <textarea name="body_text" name_friendly="Body Text" />
                 <textarea name="download_form_note" name_friendly="Downloadable Forms Note" />
                 <textarea name="embedded_form_instrux" name_friendly="Form Instructions" />
-                <dropdown name="default_fields" name_friendly="Default Fields" options="patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
+                <dropdown name="default_fields" name_friendly="Default Fields" options="no_form:No Form;patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
+                <text name="send_form_to" name_friendly="Send Form To (email address)" required="1" />
             </fields>
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
@@ -577,7 +578,8 @@
                   </body_text>
                   <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click the PDF icon to download.]]></download_form_note>
                   <embedded_form_instrux><![CDATA[If you're interested in Doggy Day Care, please make an appointment and then fill out the form below.]]></embedded_form_instrux>
-                  <default_fields><![CDATA[patient_basic]]></default_fields>
+                  <default_fields><![CDATA[no_form]]></default_fields>
+                  <send_form_to><![CDATA[petclinic@email.com]]></send_form_to>
               </item>
             </items>
           </templateset>
