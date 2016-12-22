@@ -115,7 +115,7 @@
                 <locked>0</locked>
                 <value>'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'</value>
             </font_picker>
-            <font_picker name="heading-font" name_friendly="Heading Font">
+            <font_picker name="headings-font-family" name_friendly="Heading Font">
                 <category>2</category>
                 <description>NULL</description>
                 <sort>9</sort>
@@ -123,7 +123,7 @@
                 <locked>0</locked>
                 <value>'Montserrat', 'Arial', 'Helvetica', 'sans-serif'</value>
             </font_picker>
-            <dropdown name="headings-font-weight" name_friendly="H1 Font Weight">
+            <dropdown name="headings-font-weight" name_friendly="Headings Font Weight">
                 <category>2</category>
                 <description>NULL</description>
                 <sort>12</sort>
@@ -150,54 +150,6 @@
                 <locked>0</locked>
                 <value>1.3</value>
             </text>
-            <text name="h1-font-size" name_friendly="H1 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>11</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>36px</value>
-            </text>
-            <text name="h2-font-size" name_friendly="H2 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>16</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>28px</value>
-            </text>
-            <text name="h3-font-size" name_friendly="H3 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>21</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>24px</value>
-            </text>
-            <text name="h4-font-size" name_friendly="H4 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>26</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>22px</value>
-            </text>
-            <text name="h5-font-size" name_friendly="H5 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>31</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>20px</value>
-            </text>
-            <text name="h6-font-size" name_friendly="H6 Font Size">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>36</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>18px</value>
-            </text>
             <text name="paragraph-font-size" name_friendly="Paragraph Font Size">
                 <category>2</category>
                 <description>NULL</description>
@@ -205,14 +157,6 @@
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
                 <value>16px</value>
-            </text>
-            <text name="paragraph-line-height" name_friendly="Paragraph line Height">
-                <category>2</category>
-                <description>NULL</description>
-                <sort>7</sort>
-                <edit_in_content>1</edit_in_content>
-                <locked>0</locked>
-                <value>1.4em</value>
             </text>
             <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
                 <category>2</category>
