@@ -123,7 +123,7 @@
                 <fields>
                     <text name="bubble_title" name_friendly="Bubble Title" list="1" />
                     <text name="bubble_subtitle" name_friendly="Bubble Subtitle" list="1" />
-                    <images name="image" name_friendly="Bubble Image" limit="1" list="1" />
+                    <images name="bubble_image" name_friendly="Bubble Image" limit="1" list="1" />
                     <textarea name="short_blurb" name_friendly="Bubble Blurb" list="1" />
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
@@ -131,21 +131,21 @@
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Baby]]></bubble_title>
                         <bubble_subtitle><![CDATA[Small Beginnings]]></bubble_subtitle>
-                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></bubble_image>
                         <short_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></short_blurb>
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Adult]]></bubble_title>
                         <bubble_subtitle><![CDATA[Prime-of-life]]></bubble_subtitle>
-                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.jpg]]></image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.jpg]]></bubble_image>
                         <short_blurb><![CDATA[Make sure your adult stays healthy our Adult Health and Wellness Package which includes a wellness exam, vaccine boosters, a heartworm check, and more.]]></short_blurb>
                         <sort_order><![CDATA[2]]></sort_order>
                     </item>
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Senior]]></bubble_title>
                         <bubble_subtitle><![CDATA[Healthy & Active in Old Age]]></bubble_subtitle>
-                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.jpg]]></image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.jpg]]></bubble_image>
                         <short_blurb><![CDATA[Make sure your senior has the best quality of life with our Senior Care Package. We'll help you keep your pet healthy with a comprehensive exam, blood work, x-rays and more to ensure your pets health well into old age.]]></short_blurb>
                         <sort_order><![CDATA[3]]></sort_order>
                     </item>
