@@ -55,6 +55,9 @@
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
+                <text name="homepage_title" name_friendly="Homepage Title" />
+                <!-- Squares Section -->
+                <images name="background_pattern" name_friendly="Image" list="1" />
                   <!-- Timeline text fields -->
                   <text name="timeline_title" name_friendly="Timeline Title" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
@@ -69,6 +72,9 @@
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
+                    <homepage_title><![CDATA[]]></homepage_title>
+                    <!-- Squares Section -->
+                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/mooning.png]]></background_pattern>
                     <!-- Timeline text -->
                     <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                     <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
@@ -164,8 +170,8 @@
                     <image_title><![CDATA[Care Packages]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                     <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
-                        <button_text><![CDATA[Learn More]]></button_text>
-                        <links_to><![CDATA[501]]></links_to>
+                    <button_text><![CDATA[Learn More]]></button_text>
+                    <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[1]]></sort_order>
                   </item>
                   <item>
@@ -676,7 +682,7 @@
               </fields>
               <items>
                 <item link_title="General Health" path_part="general-health" parent="services">
-                  <page_title><![CDATA[<h2>General Health</h2>]]></page_title>
+                  <page_title><![CDATA[General Health]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <body_text><![CDATA[
                   <p>We offer general checkups 2 times a year. Keep your pet the healthiest that they can be with out biannual comprehensive exams. During your pet's checkup, you can opt for grooming services, which include bathing, haircut, nail trim, and more!</p>
