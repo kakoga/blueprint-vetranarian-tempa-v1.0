@@ -57,7 +57,7 @@
               <fields>
                 <text name="homepage_title" name_friendly="Homepage Title" />
                 <!-- Squares Section -->
-                <images name="background_pattern" name_friendly="Image" list="1" />
+                <images name="background_pattern" name_friendly="Background Pattern" list="1" />
                   <!-- Timeline text fields -->
                   <text name="timeline_title" name_friendly="Timeline Title" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
@@ -286,7 +286,7 @@
                   </item>
               </items>
           </templateset>
-           <dataset name="hours_of_operation" name_friendly="Hours of Operation" parent_item="contact-us">
+           <dataset name="hours_of_operation" name_friendly="Hours of Operation (leave blank if closed)" parent_item="contact-us">
              <fields>
                  <text name="day_of_week" name_friendly="Day of Week" list="1" />
                  <text name="open" name_friendly="Open" list="1" />
@@ -777,7 +777,7 @@
               <items>
                   <item link_title="About Us" path_part="about-us">
                       <page_title><![CDATA[About Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-main.SyqZcAFVe.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer a wide variety of services including:</p>
@@ -813,7 +813,7 @@
               <items>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
                       <page_title><![CDATA[Meet the Team]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-main.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>Our team is here to help you. Our goal is to meet your needs as it pertains to the health and well-being of their pet. Our clients' pets are members of their family, and expect the same quality healthcare as they would for any other member of their family.</br>
