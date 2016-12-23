@@ -56,7 +56,7 @@
 </script>
 {{ include script-bg-vid }}
 
-<!-- Squares Section (section 4) -->
+<!-- Homepage Squares -->
 <section id="team" class="bg-light-gray">
     <div class="padding20" style="padding:20px;">
         <div class="row">
@@ -76,7 +76,7 @@
 </section>
 
 
-<!-- Timeline Section (section 3) -->
+<!-- Timeline Section -->
 <section id="about">
     <div class="container">
         <div class="row">
@@ -99,7 +99,7 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>{{timeline.timeframe}}</h4>
+                                    <h4>{{timeline.bubble_title}}</h4>
                                     <h4 class="subheading">{{timeline.title}}</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -134,7 +134,7 @@
     </div>
 </section>
 
-<!-- About Grid Section (section 2) -->
+<!-- About Section -->
 <section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
     <div class="container">
         <div class="row">
