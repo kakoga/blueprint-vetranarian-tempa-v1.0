@@ -6,6 +6,14 @@
         <created_by>Variable Action</created_by>
         <kitchen>Blank</kitchen>
         <variables>
+          <text name="container-large-desktop" name_friendly="Max Container Width">
+              <category>1</category>
+              <description></description>
+              <sort>1</sort>
+              <edit_in_content>1</edit_in_content>
+              <locked>0</locked>
+              <value>1240px</value>
+          </text>
             <color name="body-bg" name_friendly="Body Background Color">
                 <category>1</category>
                 <description>The primary background for elements</description>
@@ -52,7 +60,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#337ab7</value>
+                <value>#6699cc</value>
             </color>
             <color name="link-hover-color" name_friendly="Link Hover Color">
                 <category>3</category>
@@ -60,7 +68,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#236aa7</value>
+                <value>#5588bb</value>
             </color>
             <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
                 <category>3</category>
@@ -148,7 +156,7 @@
                 <sort>6</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>16px</value>
+                <value>18px</value>
             </text>
             <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
                 <category>2</category>
@@ -158,6 +166,14 @@
                 <locked>0</locked>
                 <value>#5a5a5a</value>
             </color>
+            <text name="line-height-computed" name_friendly="Paragraph Line Height">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>4</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>1.6em</value>
+            </text>
 
             <color name="btn-default-color" name_friendly="Button Font Color">
                 <category>6</category>
@@ -191,7 +207,7 @@
                 <locked>0</locked>
                 <value>#ffffff</value>
             </color>
-            <color name="btn-hover-bg-color" name_friendly="Button Hover Background Color">
+            <color name="btn-hover-bg-color" name_friendly="Button Border Color">
                 <category>6</category>
                 <description>NULL</description>
                 <sort>20</sort>
@@ -288,9 +304,9 @@
                 <locked>0</locked>
                 <value>#ffffff</value>
             </color>
-            
-            
-            
+
+
+
             <text name="default-spacing" name_friendly="Default Spacing">
                 <category>1</category>
                 <description>This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui</description>
@@ -307,7 +323,7 @@
                 <locked>0</locked>
                 <value>#6699cc</value>
             </color>
-            
+
             <text name="nav-at-font-color" name_friendly=" ">
             </text>
             <text name="navbar-height" name_friendly=" ">
