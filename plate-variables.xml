@@ -9,7 +9,7 @@
           <text name="container-large-desktop" name_friendly="Max Container Width">
               <category>1</category>
               <description></description>
-              <sort>4</sort>
+              <sort>1</sort>
               <edit_in_content>1</edit_in_content>
               <locked>0</locked>
               <value>1240px</value>
