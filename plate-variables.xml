@@ -6,6 +6,14 @@
         <created_by>Variable Action</created_by>
         <kitchen>Blank</kitchen>
         <variables>
+          <text name="container-large-desktop" name_friendly="Max Container Width">
+              <category>1</category>
+              <description></description>
+              <sort>4</sort>
+              <edit_in_content>1</edit_in_content>
+              <locked>0</locked>
+              <value>1240px</value>
+          </text>
             <color name="body-bg" name_friendly="Body Background Color">
                 <category>1</category>
                 <description>The primary background for elements</description>
