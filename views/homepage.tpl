@@ -147,8 +147,8 @@
                 </div>
                 <div class="row">
                     <p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
-                    {{ if {page.button_text_2} }}
-                    <p><a class="btn btn-primary" href="{{ truepath({page.into_links_to}) }}" >{{ page.button_text_2 }}</a></p>
+                    {{ if {page.about_section_button_txt} }}
+                    <p><a class="btn btn-primary" href="{{ truepath({page.into_links_to}) }}" >{{ page.about_section_button_txt }}</a></p>
                     {{ end-if }}
                 </div>
             </div>

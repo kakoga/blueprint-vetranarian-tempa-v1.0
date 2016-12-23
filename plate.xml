@@ -64,7 +64,7 @@
                   <text name="about_section_title" name_friendly="Homepage About Section Title" />
                   <images name="about_section_image" name_friendly="Homepage About Section Image" limit="1" />
                   <wysiwyg_advanced name="about_section_copy" name_friendly="Homepage About Section Copy" />
-                  <text name="button_text_2" name_friendly="Homepage About Section Button Text" />
+                  <text name="about_section_button_txt" name_friendly="Homepage About Section Button Text" />
                   <internal_link name="into_links_to" name_friendly="Homepage About Section Button Links To" />
               </fields>
               <items>
@@ -80,7 +80,7 @@
                     <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
                     <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
                     <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
-                    <button_text_2><![CDATA[Learn More]]></button_text_2>
+                    <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
                     <into_links_to><![CDATA[501]]></into_links_to>
                   </item>
               </items>
