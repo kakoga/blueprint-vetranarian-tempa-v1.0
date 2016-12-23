@@ -103,7 +103,7 @@
                                     <h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">{{timeline.short_blurb}}</p>
+                                    <p class="text-muted">{{timeline.bubble_blurb}}</p>
                                 </div>
                             </div>
                     </li>
