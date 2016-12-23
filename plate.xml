@@ -55,7 +55,7 @@
               <fields>
                 <!-- section 1: squares fields -->
                 <text name="squares_title" name_friendly="Homepage Squares Title" />
-                <text name="sub_title4" name_friendly="Homepage Squares Subtitle" />
+                <text name="squares_subtitle" name_friendly="Homepage Squares Subtitle" />
                   <!-- section 2: timeline text fields -->
                   <text name="title3" name_friendly="Timeline Title" />
                   <text name="sub_title3" name_friendly="Timeline Subtitle" />
@@ -72,7 +72,7 @@
                   <item link_title="Home" path_part="zesty_home">
                     <!-- section 1: squares -->
                     <squares_title><![CDATA[]]></squares_title>
-                    <sub_title4><![CDATA[]]></sub_title4>
+                    <squares_subtitle><![CDATA[]]></squares_subtitle>
                       <!-- section 2: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
