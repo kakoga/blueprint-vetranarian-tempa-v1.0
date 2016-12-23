@@ -135,7 +135,7 @@
 </section>
 
 <!-- About Grid Section (section 2) -->
-<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.image2.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
+<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pull-left home-section-two-img">

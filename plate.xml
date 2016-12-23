@@ -53,35 +53,35 @@
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
-                <!-- section 1: about pet image and text fields-->
-                <text name="about_intro_title" name_friendly="About Intro Title" />
-                <images name="image2" name_friendly="Intro Section Image" limit="1" />
-                <wysiwyg_advanced name="body_text_2" name_friendly="Intro Section Copy" />
-                <text name="button_text_2" name_friendly="Button Text for Intro" />
-                <internal_link name="into_links_to" name_friendly="Intro Button Links To" />
-                <!-- section 2: squares fields -->
+                <!-- section 1: squares fields -->
                 <text name="squares_title" name_friendly="Homepage Squares Title" />
                 <text name="squares_subtitle" name_friendly="Homepage Squares Subtitle" />
-                  <!-- section 3: timeline text fields -->
+                  <!-- section 2: timeline text fields -->
                   <text name="timeline_title" name_friendly="Timeline Title" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
                   <text name="timeline_button_text" name_friendly="Timeline Button Text" />
+                  <!-- section 3: about section fields-->
+                  <text name="about_intro_title" name_friendly="About Intro Title" />
+                  <images name="about_section_image" name_friendly="About Section Image" limit="1" />
+                  <wysiwyg_advanced name="body_text_2" name_friendly="About Section Copy" />
+                  <text name="button_text_2" name_friendly=" About Button Text for Intro" />
+                  <internal_link name="into_links_to" name_friendly="About Intro Button Links To" />
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
-                    <!-- section 1: pet image and text -->
-                    <about_intro_title><![CDATA[Zesty Pet Clinic]]></about_intro_title>
-                    <image2><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></image2>
-                    <body_text_2><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></body_text_2>
-                    <button_text_2><![CDATA[Learn More]]></button_text_2>
-                    <into_links_to><![CDATA[501]]></into_links_to>
-                    <!-- section 2: squares -->
+                    <!-- section 1: squares -->
                     <squares_title><![CDATA[]]></squares_title>
                     <squares_subtitle><![CDATA[]]></squares_subtitle>
-                    <!-- section 3: timeline text -->
+                    <!-- section 2: timeline text -->
                     <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                     <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
                     <timeline_button_text><![CDATA[Discover our services]]></timeline_button_text>
+                    <!-- section 3: about section fields -->
+                    <about_intro_title><![CDATA[Zesty Pet Clinic]]></about_intro_title>
+                    <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
+                    <body_text_2><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></body_text_2>
+                    <button_text_2><![CDATA[Learn More]]></button_text_2>
+                    <into_links_to><![CDATA[501]]></into_links_to>
                   </item>
               </items>
           </templateset>
