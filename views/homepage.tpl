@@ -81,7 +81,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{page.title3}}</h2>
+                <h2 class="section-heading">{{page.timeline_title}}</h2>
                 <h3 class="section-subheading text-muted">{{page.sub_title3}}</h3>
             </div>
         </div>

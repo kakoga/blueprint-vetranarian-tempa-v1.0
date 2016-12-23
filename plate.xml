@@ -57,7 +57,7 @@
                 <text name="squares_title" name_friendly="Homepage Squares Title" />
                 <text name="squares_subtitle" name_friendly="Homepage Squares Subtitle" />
                   <!-- section 2: timeline text fields -->
-                  <text name="title3" name_friendly="Timeline Title" />
+                  <text name="timeline_title" name_friendly="Timeline Title" />
                   <text name="sub_title3" name_friendly="Timeline Subtitle" />
                   <text name="button_text_3" name_friendly="Timeline Button Text" />
                   <!-- section 3: about pet image and text fields-->
@@ -74,7 +74,7 @@
                     <squares_title><![CDATA[]]></squares_title>
                     <squares_subtitle><![CDATA[]]></squares_subtitle>
                       <!-- section 2: timeline text -->
-                      <title3><![CDATA[Pet Care for Every Age]]></title3>
+                      <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
                       <button_text_3><![CDATA[Discover our services]]></button_text_3>
                       <!-- section 3: pet image and text -->
