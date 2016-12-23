@@ -6,7 +6,7 @@
         {{ if {slide.background_video} }}
         <div class=""  >
 
-            <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getMediaURL()}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
+            <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
                 <div class="container">
                     <div class="intro-text">
                         <div class="intro-lead-in">{{slide.title}}</div>
@@ -57,7 +57,7 @@
 {{ include script-bg-vid }}
 
 <!-- Homepage Squares -->
-<section id="team" class="bg-light-gray">
+<section id="team" class="bg-light-gray" style="background-image:url({{ page.background_pattern.getImage() }})">
     <div class="padding20" style="padding:20px;">
         <div class="row">
             {{ each homepage_squares as square sort by square.sort_order }}
@@ -114,18 +114,6 @@
                             {{ if {page.timeline_button_text} }}
                             <h4><a href="{{ truepath({page.timeline_btn_links_to}) }}" >{{page.timeline_button_text}}</a></h4>
                             {{ end-if }}
-                            <ul class="list-inline social-buttons">
-                                <li>
-                                    <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
-<i class="fa fa-facebook"></i>
-</a> -->
-                                </li>
-                                <li>
-                                    <!-- <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
-<i class="fa fa-twitter"></i>
-</a> -->
-                                </li>
-                            </ul>
                         </div>
                     </li>
                 </ul>
