@@ -111,8 +111,8 @@
 
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            {{ if {page.button_text_3} }}
-                            <h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.button_text_3}}</a></h4>
+                            {{ if {page.timeline_button_text} }}
+                            <h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.timeline_button_text}}</a></h4>
                             {{ end-if }}
                             <ul class="list-inline social-buttons">
                                 <li>
