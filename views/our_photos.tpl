@@ -15,7 +15,9 @@
 					<div class="row">
 						{{ end-if }}
 						<div class="col-md-4">
-							<img src ="{{ picture.about_us_photo.getImage() }}" alt="{{picture.title}} photo">
+							<a class="magnific" href="{{picture.about_us_photo.getImage()}}" title="{{ picture.photo_title }}" itemprop="name url">
+								<img src ="{{ picture.about_us_photo.getImage(600,400,crop) }}" alt="{{picture.title}} photo">
+							</a>
 							<p class="large">{{ picture.photo_title }}</p>
 							<p>{{ picture.photo_description }}</p>
 						</div>
@@ -30,3 +32,14 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$(function() {
+		$('.magnific').magnificPopup({
+			type:'image',
+			gallery: {
+				enabled: true
+			}
+		});
+	});
+</script>
