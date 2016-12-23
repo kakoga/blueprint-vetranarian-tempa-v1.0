@@ -146,7 +146,7 @@
                     <h2 class="section-heading pull-left home-section-two">{{page.about_intro_title}}</h2>
                 </div>
                 <div class="row">
-                    <p class="pull-left home-section-two">{{ page.body_text_2 }}</p>
+                    <p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
                     {{ if {page.button_text_2} }}
                     <p><a class="btn btn-primary" href="{{ truepath({page.into_links_to}) }}" >{{ page.button_text_2 }}</a></p>
                     {{ end-if }}
