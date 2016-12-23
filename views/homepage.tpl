@@ -143,7 +143,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="row">
-                    <h2 class="section-heading pull-left home-section-two">{{page.about_intro_title}}</h2>
+                    <h2 class="section-heading pull-left home-section-two">{{page.about_section_title}}</h2>
                 </div>
                 <div class="row">
                     <p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
