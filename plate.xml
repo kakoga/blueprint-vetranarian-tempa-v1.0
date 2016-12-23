@@ -27,9 +27,9 @@
 
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
-                  <text name="name" name_friendly="Social Media Name" />
-                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" />
-                  <text name="url" name_friendly="Social Media Link" limit="1" />
+                  <text name="name" name_friendly="Social Media Name" list="1" />
+                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" list="1"/>
+                  <text name="url" name_friendly="Social Media Link" limit="1" list="1" />
               </fields>
               <items>
                   <item link_title="" path_part="">
@@ -54,7 +54,7 @@
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
                 <!-- section 1: squares fields -->
-                <text name="title4" name_friendly="Homepage Squares Title" />
+                <text name="squares_title" name_friendly="Homepage Squares Title" />
                 <text name="sub_title4" name_friendly="Homepage Squares Subtitle" />
                   <!-- section 2: timeline text fields -->
                   <text name="title3" name_friendly="Timeline Title" />
@@ -71,7 +71,7 @@
               <items>
                   <item link_title="Home" path_part="zesty_home">
                     <!-- section 1: squares -->
-                    <title4><![CDATA[]]></title4>
+                    <squares_title><![CDATA[]]></squares_title>
                     <sub_title4><![CDATA[]]></sub_title4>
                       <!-- section 2: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
