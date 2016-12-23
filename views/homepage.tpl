@@ -100,7 +100,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>{{timeline.bubble_title}}</h4>
-                                    <h4 class="subheading">{{timeline.title}}</h4>
+                                    <h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">{{timeline.short_blurb}}</p>
