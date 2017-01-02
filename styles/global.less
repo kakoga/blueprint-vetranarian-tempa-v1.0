@@ -3,9 +3,11 @@
 	background-attachment:fixed;
 	background-position:center top;
 	padding:25vh 0;
-	background-color:@gray;
+	background-color:@body-bg;
+	background-repeat:no-repeat;
 	&.no-image {
 		padding:10vh 0;
+		background-color:@gray;
 	}
 
 	@media (max-width: 768px) {
@@ -33,7 +35,7 @@ a:hover {text-decoration:none;}
 
 .body-content {
 	padding: 50px 0 50px 0;
-    background-color:@content-bg-color;
+	background-color:@content-bg-color;
 	h2 {
 		font-size: 35px;
 		margin-top: 0
@@ -73,8 +75,8 @@ a:hover {text-decoration:none;}
 			margin:0;
 			padding:0;
 			li {
-			margin:0;
-			padding:0;
+				margin:0;
+				padding:0;
 				list-style:none;
 				a {
 					display:block;
@@ -122,11 +124,11 @@ a:hover {text-decoration:none;}
 				}
 			}
 			h5 {
-					position:relative;
+				position:relative;
 				font-size:18px;
 			}
 			h6 {
-					position:relative;
+				position:relative;
 				font-size:15px;
 				color:@gray;
 			}
@@ -141,22 +143,22 @@ a:hover {text-decoration:none;}
 	}
 }
 .dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
+	left: 100%;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	margin-top: -1px;
 
 }
 .dropdown-menu {
 	background-color: fade(@navbar-default-bg,80%);
 
-@media(max-width:768px) {
+	@media(max-width:768px) {
 		width:100%;
 	}
 }
 .dropdown-menu li:hover .sub-menu {
-    visibility: visible;
+	visibility: visible;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -170,26 +172,26 @@ a:hover {text-decoration:none;}
 }
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
+	border-bottom: 7px solid transparent;
+	border-left: none;
+	border-right: 7px solid rgba(0, 0, 0, 0.2);
+	border-top: 7px solid transparent;
+	left: -7px;
+	top: 10px;
 
 }
 .navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
+	border-top: 6px solid transparent;
+	border-left: none;
+	border-right: 6px solid #fff;
+	border-bottom: 6px solid transparent;
+	left: 10px;
+	top: 11px;
+	left: -6px;
 }
 .navbar-custom .nav li:hover, .navbar-custom .nav li:focus {
 	color: @gray-light;
@@ -236,4 +238,18 @@ a:hover {text-decoration:none;}
 }
 .form-rows {
 	* {margin-bottom:3px;}
+}
+.promo-detail {
+	padding:20px;
+	margin:20px;
+	border:dashed 3px @gray;
+	position:relative;
+	&:after {
+		font-family: fontawesome ;
+		content: "\f0c4";
+		position:absolute;
+		right:100%;
+		top:-20px;
+		color:@gray;
+	}
 }
