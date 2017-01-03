@@ -590,7 +590,7 @@
             </items>
           </templateset>
           <!-- Patient Resources Datasets -->
-          <dataset name="online_forms" name_friendly="Online Forms" parent_item="patient-forms">
+          <dataset name="online_forms" name_friendly="Online Forms">
               <fields>
                   <text name="form_title" name_friendly="Form Title" list="1" />
                   <wysiwyg_advanced name="form_description" name_friendly="Form Description" list="1" />
