@@ -546,7 +546,7 @@
                 <textarea name="download_form_note" name_friendly="Downloadable Forms Note" />
                 <textarea name="embedded_form_instrux" name_friendly="Form Instructions" />
                 <dropdown name="default_fields" name_friendly="Default Form Fields" options="no_form:No Form;patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
-                <one_to_many name="additional_fields" name_friendly="Additional Form Fields (add additional fields that you've created in the Custom Form dataset)" />
+                <one_to_many name="additional_fields" name_friendly="Additional Form Fields (add additional fields that you've created in the Custom Form dataset)" relationship="custom_form_fields" />
                 <text name="send_form_to" name_friendly="Send Form To (email address)" required="1" />
             </fields>
             <items>
