@@ -623,7 +623,6 @@
           <dataset name="custom_form_fields" name_friendly="Custom Form Fields">
             <fields>
               <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1"/>
-              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1" />
               <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;"  list="1"/>
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
