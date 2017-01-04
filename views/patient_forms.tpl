@@ -129,7 +129,7 @@
 
 
 							<div class="form-group col-xs-12">
-								{{ each custom_form_fields as form where find_in_set(form.zid, '{page.more_fields}') sort by form.sort_order }}
+								{{ each custom_form_fields as form where find_in_set(form.zid, '{page.additional_fields}') sort by form.sort_order }}
 								<!-- name/text/toggle -->
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
