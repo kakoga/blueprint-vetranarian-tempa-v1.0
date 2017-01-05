@@ -15,13 +15,11 @@
 					{{ page.body_text }}
 				</div>
 				<div class="desktop">
-				<div>
-					<div class="desktop">
-						<div class="col-md-3" >
-							{{ include sectionlinks }}
-							{{ include inner-page-sidebar }}
-						</div>
-					<div>
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

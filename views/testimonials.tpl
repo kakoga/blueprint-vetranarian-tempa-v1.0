@@ -28,7 +28,7 @@
          <div class="col-md-3" >
            {{ include sectionlinks }}
          </div>
-       <div>
+       </div>
      </div>
    </div>
  </div>
