@@ -15,6 +15,7 @@
 		background-size:cover;
 		background-attachment:inherit;
 		hr {display:none;}
+
 	}
 	h2 {
 		color:#fff;
@@ -59,6 +60,17 @@ a:hover {text-decoration:none;}
 		}
 
 		a:hover {text-decoration:underline;}
+	}
+	.mobile {
+		display: none;
+	}
+	@media(max-width:@sm) {
+		.mobile {
+			display: block;
+		}
+		.desktop {
+			display: none;
+		}
 	}
 	.sectionlinks-container {
 		background:@theme-primary;
@@ -205,7 +217,7 @@ a:hover {text-decoration:none;}
 #office-tour {
 	#ytplayer {
 		position: static;
-		height:1170*9/16px;
+		height:910*9/16px;
 		border: 5px solid white;
 		box-shadow: 0px 0px 10px #645e5e;
 		background-color: gray;
