@@ -24,10 +24,10 @@
 					{{end-each }}
 				</div>
 				<div class="desktop">
-				<div>
-				<div class="col-md-3" >
-					{{ include sectionlinks }}
-					{{ include inner-page-sidebar }}
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
+					</div>
 				</div>
 			</div>
 		</div>

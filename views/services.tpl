@@ -36,7 +36,7 @@
 						{{ include sectionlinks }}
 						{{ include inner-page-sidebar }}
 					</div>
-				<div>
+				</div>
 			</div>
 		</div>
 	</div>

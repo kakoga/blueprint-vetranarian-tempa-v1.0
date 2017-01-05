@@ -39,7 +39,6 @@
 					{{ include sectionlinks }}
 				</div>
 			</div>
-
 		</div>
 	</div>
 </div>

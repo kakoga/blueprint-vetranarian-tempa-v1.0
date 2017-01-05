@@ -29,7 +29,7 @@
 					<div class="col-md-3" >
 						{{ include inner-page-sidebar }}
 					</div>
-				<div>
+				</div>
 			</div>
 		</div>
 	</div>
