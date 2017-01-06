@@ -8,10 +8,13 @@
 	&.no-image {
 		padding:10vh 0;
 		background-color:@gray;
+		@media (max-width: @sm) {
+			padding:8vh 0;
+		}
 	}
 
-	@media (max-width: 768px) {
-		padding:5vh 0;
+	@media (max-width: @sm) {
+		padding:8vh 0;
 		background-size:cover;
 		background-attachment:inherit;
 		hr {display:none;}
@@ -22,6 +25,9 @@
 		text-shadow:1px 1px 2px rgba(0,0,0,0.5);
 		text-align:center;
 		font-size:4em;
+		@media (max-width: @sm) {
+			font-size:2em;
+		}
 	}
 	hr {
 		max-width:100px;
@@ -34,6 +40,17 @@
 
 a:hover {text-decoration:none;}
 
+.mobile {
+	display: none;
+}
+@media(max-width:@sm) {
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+}
 .body-content {
 	padding: 50px 0 50px 0;
 	background-color:@content-bg-color;
@@ -61,17 +78,6 @@ a:hover {text-decoration:none;}
 
 		a:hover {text-decoration:underline;}
 	}
-	.mobile {
-		display: none;
-	}
-	@media(max-width:@sm) {
-		.mobile {
-			display: block;
-		}
-		.desktop {
-			display: none;
-		}
-	}
 	.sectionlinks-container {
 		background:@theme-primary;
 		color:#fff;
@@ -82,6 +88,9 @@ a:hover {text-decoration:none;}
 			padding:10px 20px;
 			color:#fff;
 			display:block;
+			@media(max-width: @sm) {
+				padding: 0 10px;
+			}
 		}
 		ul {
 			margin:0;
@@ -93,6 +102,9 @@ a:hover {text-decoration:none;}
 				a {
 					display:block;
 					padding:9px 20px;
+					@media(max-width: @sm) {
+						padding: 5px 10px;
+					}
 					border-bottom:1px solid darken(@theme-primary,5%);
 					color:#fff;
 					line-height:1.4em;

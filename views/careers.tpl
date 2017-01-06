@@ -15,9 +15,11 @@
 					</div>
 					{{ each career_opportunities as job sort by job.sort_order }}
 					<div class="row">
-						<h5>{{ job.job_title }}</h5>
-						<h6>{{ job.job_location }}</h6>
-						{{ job.job_description}}
+						<div class="col-md-12">
+							<h5>{{ job.job_title }}</h5>
+							<h6>{{ job.job_location }}</h6>
+							{{ job.job_description}}
+						</div>
 					</div>
 					{{ end-each }}
 				</div>
