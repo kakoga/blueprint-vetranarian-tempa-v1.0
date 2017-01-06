@@ -51,6 +51,21 @@
                   </item>
               </items>
           </dataset>
+          <dataset name="custom_form_fields" name_friendly="Custom Form Fields">
+            <fields>
+              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1"/>
+              <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;"  list="1"/>
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <!-- add example comment field in -->
+            <items>
+              <item>
+                <custom_field_name><![CDATA[Comments]]></custom_field_name>
+                <field_type_toggle><![CDATA[1]]></field_type_toggle>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
 
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
@@ -199,7 +214,6 @@
               <text name="title" name_friendly="Page Title (h1)" required="1" />
               <wysiwyg_advanced name="content" name_friendly="Page Content" />
             </fields>
-            <!-- ** need to hide from top nav -->
             <items>
               <item link_title="Privacy Policy" path_part="privacy-policy" hidden="true">
                 <title><![CDATA[Privacy Policy]]></title>
@@ -211,7 +225,7 @@
               </item>
           </items>
         </templateset>
-        <dataset name="disclosure_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
+        <dataset name="footer_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
           <fields>
             <text name="link_title" name_friendly="Link Title" list="1" />
             <text name="link" name_friendly="Link" list="1" />
@@ -252,10 +266,10 @@
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-main-image.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
                       <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
-                      <address_three><![CDATA[an Diego, CA 92101]]></address_three>
+                      <address_three><![CDATA[San Diego, CA 92101]]></address_three>
                       <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
                       <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
                       <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
@@ -331,7 +345,7 @@
               <items>
                   <item link_title="Resources" path_part="resources">
                       <page_title><![CDATA[Resources]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
@@ -352,7 +366,7 @@
                 <items>
                   <item link_title="FAQ" path_part="faq" parent="resources">
                       <page_title><![CDATA[FAQ]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>Please see a list of frequently asked questions below.</p>
@@ -371,7 +385,7 @@
                 <items>
                   <item link_title="Breeder Questions" path_part="breeder-questions" parent="resources">
                     <page_title>Breeder Questions</page_title>
-                    <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                     <body_text>
                       <![CDATA[<h5>Questions to Ask Your Potential Breeder</h5>
                       <p>When selecting a breeder it can be difficult to know what questions to ask. We've provided a list of common questions to ask your potential breeder.</p>
@@ -390,7 +404,7 @@
                 <items>
                   <item link_title="Links" path_part="links" parent="resources">
                     <page_title>Links</page_title>
-                    <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                     <body_text>
                       <![CDATA[
                       <p>Here is a list of links to some of our favorite resources.</p>]]>
@@ -484,7 +498,7 @@
               <items>
                   <item link_title="Promotions" path_part="promotions">
                       <page_title><![CDATA[Promotions]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                           <p>Check out our latest promotions to help you care for your loved one!</p>]]>
@@ -533,7 +547,7 @@
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
                       <page_title><![CDATA[Patient Resources]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-main-image.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text><![CDATA[<p>We strive to provide our clients with the best service and care. For your convenience we have our most common forms available for you to download and fill out prior to your appointment. We've also included information on our payment options.</p><p>When you adopt a companion animal, whether from a shelter or a breeder, whether your new family member is a dog or cat, it will help develop good relationships if you learn some simple concepts. For example, if you introduce a puppy or kitten to your home, your new pet may not know yet about proper housetraining.</p><p>There are ways to teach your new family member where, when, and what to do that aren't punitive or threatening. Or you may own a pet that may have become ill and your veterinarian has prescribed medication. What's the best way to administer medication to an animal? If you want a happy dog or cat, it's important to provide your animal with a stimulating experience during the day, especially if they live primarily indoors. Because dogs and cats love to hunt, introducing a kong can help entertain them as well as manage their weight.</p>]]></body_text>
                   </item>
               </items>
@@ -546,7 +560,8 @@
                 <textarea name="body_text" name_friendly="Body Text" />
                 <textarea name="download_form_note" name_friendly="Downloadable Forms Note" />
                 <textarea name="embedded_form_instrux" name_friendly="Form Instructions" />
-                <dropdown name="default_fields" name_friendly="Default Fields" options="no_form:No Form;patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
+                <dropdown name="default_fields" name_friendly="Default Form Fields" options="no_form:No Form;patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
+                <one_to_many name="additional_fields" name_friendly="Additional Form Fields (add additional fields that you've created in the Custom Form dataset)" relationship="custom_form_fields" relationship_field="custom_field_name" />
                 <text name="send_form_to" name_friendly="Send Form To (email address)" required="1" />
             </fields>
             <items>
@@ -559,6 +574,7 @@
                   <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click the PDF icon to download.]]></download_form_note>
                   <embedded_form_instrux><![CDATA[If you're interested in Doggy Day Care, please make an appointment and then fill out the form below.]]></embedded_form_instrux>
                   <default_fields><![CDATA[no_form]]></default_fields>
+                  <additional_fields><![CDATA[]]></additional_fields>
                   <send_form_to><![CDATA[petclinic@email.com]]></send_form_to>
               </item>
             </items>
@@ -619,22 +635,7 @@
                 </item>
               </items>
           </dataset>
-          <dataset name="custom_form_fields" name_friendly="Custom Form Fields" parent_item="patient-forms">
-            <fields>
-              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1"/>
-              <text name="custom_field_name" name_friendly="Custom Form Name" required="1" list="1" />
-              <yes_no name="field_type_toggle" name_friendly="Field Type (text: 150 character limit; textarea: unlimited)" options="0:Text;1:Textarea;"  list="1"/>
-              <sort name="sort_order" name_friendly="Sort Order" list="1" />
-            </fields>
-            <!-- add example comment field in -->
-            <items>
-              <item>
-                <custom_field_name><![CDATA[Comments]]></custom_field_name>
-                <field_type_toggle><![CDATA[1]]></field_type_toggle>
-                <sort_order><![CDATA[1]]></sort_order>
-              </item>
-            </items>
-          </dataset>
+
           <!-- PATIENT RESOURCES END -->
 
           <!-- 6. SERVICES -->
@@ -647,7 +648,7 @@
               <items>
                   <item link_title="Services" path_part="services">
                       <page_title><![CDATA[Our Services]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text><![CDATA[<p>Pet Care Veterinary Hospital offers full-service veterinary care, from routine physical examinations and vaccinations to emergency and critical care. In addition, we offer unparalleled surgical, dental, digital X-ray, endoscopic, and ultrasound evaluation services. We place special emphasis on preventive medicine and individual wellness programs, such as senior care, healthy weight, and lifestyle.</p>
                       <p>We believe that it is our job to not only treat your pets when they are ill, but to educate you on how to keep your best friends happy and healthy. Our vets have more than 80 years of combined veterinary experience. They have provided treatment for thousands of pets for a variety of problems and are constantly updating their skills through continuing education classes to learn about the latest innovations and medical protocols.</p>]]></body_text>
                   </item>
@@ -692,7 +693,7 @@
                 </item>
                 <item link_title="Vaccines" path_part="vaccines" parent="services">
                   <page_title><![CDATA[Vaccines]]></page_title>
-                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>
                   <p>Similar to human vaccines, animal vaccines are administered to prevent diseases from occurring in animals. Routinely vaccinating animals is often more affordable than paying for the treatment of sick animals, reduces transmission of microorganisms in the animal population, and reduces animal suffering. Pets are often given vaccines for infectious diseases such as rabies, parvovirus, distemper and hepatitis. Livestock animals, such as turkeys, chickens and cattle, are vaccinated to protect against diseases such as rotavirus, E. coli, pinkeye and brucellosis.</p>
                   <p>The proper application of vaccines to animal populations has enhanced their health and welfare, and prolonged their life expectancies. The goal of a vaccination program is to prevent or reduce disease, and thereby promote optimal patient, herd and public health. Even though some formerly common diseases have now become uncommon, vaccination is still highly recommended because these serious disease agents continue to thrive in certain environments.</p>
@@ -704,7 +705,7 @@
                 </item>
                 <item link_title="Care Packages" path_part="care-packages" parent="services">
                   <page_title><![CDATA[Care Packages]]></page_title>
-                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Our pets, just like humans, will have changing medical and health needs as they age. Our care packages will help you get the most comprehensive care for your pet from baby to senior.
                     Each package covers comprehensive exams, possible vaccines or medication, nutritional consulation, heartworm test and more.</p></br>
                     <h3>Baby</h3></br> <p>Our Baby Package includes:</br> <ul><li>Comprehensive physical exam</li><li>Recommended vaccines</li></ul></p></br>
@@ -714,7 +715,7 @@
                 </item>
                 <item link_title="Dental Care" path_part="dental-care" parent="services">
                   <page_title><![CDATA[Dental Care]]></page_title>
-                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Dental care is an integral part of your pets health. Poor dental health can lead to other health problems, including heart problems. To help your pet be the best health possible, we offer professional cleanings, and training and tips to help your pet get used to daily tooth brushing.</p>
 
                     <p>Veterinary dentistry includes the cleaning, adjustment, filing, extraction, or repair of your pets' teeth and all other aspects of oral health care. These procedures should be performed by a veterinarian or a board-certified veterinary dentist. Subject to state or provincial regulation, veterinary technicians are allowed to perform certain dental procedures under the supervision of a veterinarian. </p>
@@ -832,7 +833,7 @@
               <items>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Join our team!</h4>]]>
                     </body_text>
@@ -850,7 +851,7 @@
               <items>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
-                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Please checkout our videos below.</h4>]]>
                     </body_text>
@@ -907,7 +908,7 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <employee_category><![CDATA[593]]></employee_category>
+                  <employee_category><![CDATA[591]]></employee_category>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -915,7 +916,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <employee_category><![CDATA[593]]></employee_category>
+                  <employee_category><![CDATA[591]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -923,7 +924,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <employee_category><![CDATA[593]]></employee_category>
+                  <employee_category><![CDATA[591]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
@@ -931,7 +932,7 @@
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
-                  <employee_category><![CDATA[592]]></employee_category>
+                  <employee_category><![CDATA[590]]></employee_category>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>

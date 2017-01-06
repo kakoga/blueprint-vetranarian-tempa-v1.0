@@ -3,6 +3,11 @@
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
+				<div class="mobile">
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+					</div>
+				</div>
 				<div class="col-md-9" >
 					<div class="title-border">
 						<h1>{{ page.page_title }}</h1>
@@ -13,17 +18,19 @@
 					<p class="form-rows">{{ page.download_form_note}}</p>
 
 							<br/>
-						{{ each online_forms as of sort by of.sort_order }}
-						<blockquote>
-							<div class="form-rows">
-								<h4>{{ of.form_title }}</h4>
-								{{ of.form_description }}
-								<a href="{{ of.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
-							</div>
-							<br/>
-							<br/>
-						</blockquote>
+					{{ if {page.zid} == {patient_forms.first().zid} }}
+					{{ each online_forms as of sort by of.sort_order }}
+					<blockquote>
+						<div class="form-rows">
+							<h4>{{ of.form_title }}</h4>
+							{{ of.form_description }}
+							<a href="{{ of.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
+						</div>
+						<br/>
+						<br/>
+					</blockquote>
 					{{ end-each }}
+					{{ end-if }}
 					{{ if {page.default_fields} != 'no_form' }}
 					<hr>
 					<div class="row">
@@ -127,7 +134,7 @@
 
 
 							<div class="form-group col-xs-12">
-								{{ each custom_form_fields as form sort by form.sort_order }}
+								{{ each custom_form_fields as form where find_in_set(form.zid, '{page.additional_fields}') sort by form.sort_order }}
 								<!-- name/text/toggle -->
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
@@ -149,9 +156,11 @@
 					</form>
 					{{ end-if }}
 				</div>
-				<div class="col-md-3" >
-					{{ include sectionlinks }}
-					{{ include inner-page-sidebar }}
+				<div class="desktop">
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
+					</div>
 				</div>
 			</div>
 		</div>
