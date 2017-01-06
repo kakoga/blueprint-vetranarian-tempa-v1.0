@@ -17,9 +17,11 @@
 					</div>
 					{{ each breeder_q as question sort by question.sort_order }}
 					<div class="row">
-						<p>{{ question.question }}</p>
-						<p>{{ question.answer }}</p>
-						<hr>
+						<div class="col-md-12">
+							<p>{{ question.question }}</p>
+							<p>{{ question.answer }}</p>
+							<hr>
+						</div>
 					</div>
 					{{end-each }}
 				</div>

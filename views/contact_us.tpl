@@ -3,8 +3,8 @@
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
+				<h1>{{ page.page_title }}</h1>
 				<div class="col-md-4" >
-					<h1>{{ page.page_title }}</h1>
 					<p>{{ page.address_one }}</p>
 					<p>{{ page.address_two }}</p>
 					<p>{{ page.address_three }}</p>
@@ -17,7 +17,7 @@
 					<p><span class="days">{{ hours.day_of_week}}</span> {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>
 					{{ end-each }}
 				</div>
-				<div class="col-md-8" >
+				<div class="col-md-8">
 					{{ page.google_map_embed }}
 				</div>
 			</div>
