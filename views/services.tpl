@@ -15,10 +15,14 @@
 					<div class="body-text" >
 						{{ page.body_text }}
 					</div>
-					<div class="service-grid">
+					<div class="service-grid desktop">
 						<div class="padding20">
 							<div class="row">
 								{{ each vet_services as ser sort by ser.sort_order }}
+								{{ if {index}  % 3 == 1 && {index} != 1 }}
+							</div>
+							<div class="row">
+								{{ end-if }}
 								<div class="col-md-4">
 									<div class="square-wrap">
 										<img src="{{ ser.main_image.getImage(700,700,crop) }}">
