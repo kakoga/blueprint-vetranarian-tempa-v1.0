@@ -1,4 +1,4 @@
-<div id="resources">
+<div id="patient-resources">
 	{{ include inner-page-hero }}
 	<div class="container">
 		<div class="body-content" >
