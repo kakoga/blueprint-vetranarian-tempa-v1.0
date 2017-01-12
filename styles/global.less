@@ -40,6 +40,14 @@
 
 a:hover {text-decoration:none;}
 
+.modal-content {
+	padding:@default-spacing;
+		&:after {
+			clear:both;
+			display:table;
+			content:'';
+		}
+}
 .mobile {
 	display: none;
 }
