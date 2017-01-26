@@ -77,6 +77,7 @@
 
 
 <!-- Timeline Section -->
+{{ if {page.timeline_title} }}
 <section id="about">
     <div class="container">
         <div class="row">
@@ -121,23 +122,30 @@
         </div>
     </div>
 </section>
+{{ end-if }}
 
 <!-- About Section -->
-<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
+{{ each about_section as abtsec sort by abtsec.sort_order}}
+<section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage(500, 500, crop) }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
 	<div class="container">
+
 		<div class="row">
+			{{ if {index} % 1 == 1 && {index != 1} }}
+		</div>
+		<div class="row">
+			{{ end-if }}
 			<div class="col-lg-6 pull-left home-section-two-img">
 				&nbsp;
 			</div>
 			<div class="col-lg-6">
 				<div class="opaque-bg">
 					<div class="row">
-						<h2 class="section-heading pull-left home-section-two">{{page.about_section_title}}</h2>
+						<h2 class="section-heading pull-left home-section-two">{{abtsec.about_section_title}}</h2>
 					</div>
 					<div class="row">
-						<p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
-						{{ if {page.about_section_button_txt} }}
-						<p><a class="btn btn-primary" href="{{ truepath({page.about_section_btn_links_to}) }}" >{{ page.about_section_button_txt }}</a></p>
+						<p class="pull-left home-section-two">{{ abtsec.about_section_copy }}</p>
+						{{ if {abtsec.about_section_button_txt} }}
+						<p><a class="btn btn-primary" href="{{ truepath({abtsec.about_section_btn_links_to}) }}" >{{ abtsec.about_section_button_txt }}</a></p>
 						{{ end-if }}
 					</div>
 				</div>
@@ -145,3 +153,4 @@
 		</div>
 	</div>
 </section>
+{{ end-each }}
