@@ -67,6 +67,44 @@
               </item>
             </items>
           </dataset>
+          <dataset name="footer_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
+            <fields>
+              <text name="link_title" name_friendly="Link Title" list="1" />
+              <text name="link" name_friendly="Link" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <link_title><![CDATA[Privacy Policy]]></link_title>
+                <link><![CDATA[516]]></link>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <link_title><![CDATA[Terms of Use]]></link_title>
+                <link><![CDATA[517]]></link>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="footer_logos" name_friendly="Footer Logos" parent_item="">
+            <fields>
+              <text name="logo_title" name_friendly="Logo Title" list="1" />
+              <images name="footer_logo" name_friendly="Footer Logo" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <logo_title><![CDATA[Zesty Clinic Logo]]></logo_title>
+                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/zesty_footer_logo.png]]></footer_logo>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <logo_title><![CDATA[Golden Seal]]></logo_title>
+                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/gold_seal_logo.png]]></footer_logo>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+            </items>
+          </dataset>
 
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
@@ -235,25 +273,6 @@
               </item>
           </items>
         </templateset>
-        <dataset name="footer_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
-          <fields>
-            <text name="link_title" name_friendly="Link Title" list="1" />
-            <text name="link" name_friendly="Link" list="1" />
-            <sort name="sort_order" name_friendly="Sort Order" list="1" />
-          </fields>
-          <items>
-            <item>
-              <link_title><![CDATA[Privacy Policy]]></link_title>
-              <link><![CDATA[516]]></link>
-              <sort_order><![CDATA[1]]></sort_order>
-            </item>
-            <item>
-              <link_title><![CDATA[Terms of Use]]></link_title>
-              <link><![CDATA[517]]></link>
-              <sort_order><![CDATA[2]]></sort_order>
-            </item>
-          </items>
-        </dataset>
         <!-- GENERIC PAGE END  -->
 
           <!-- 2. CONTACT US -->
