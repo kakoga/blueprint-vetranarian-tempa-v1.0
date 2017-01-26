@@ -206,7 +206,6 @@ img {
 			padding: 0px !important;
 			margin-top: 0px;
 			img {
-				max-height: 50px;
 				max-width: 190px;
 				margin-top: 5px;
 				@media(max-width: @sm) {
@@ -465,14 +464,15 @@ section, .recipe-wrap {
 	text-transform: none;
 }
 
-section#portfolio {
+section.portfolio {
+
 	@media(max-width: @sm) {
 		background-image: none !important;
 		padding: 50px 0;
 	}
 }
 
-#portfolio, .influencers-page, .product-page {
+.portfolio, .influencers-page, .product-page {
 	.portfolio-item {
 		margin: 0 0 15px;
 		right: 0;
@@ -536,7 +536,7 @@ section#portfolio {
 }
 
 @media(min-width:@sm) {
-	#portfolio, .influencers-page {
+	.portfolio, .influencers-page {
 		.portfolio-item {
 			margin: 0 0 30px;
 		}

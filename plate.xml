@@ -19,6 +19,7 @@
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
+            <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
