@@ -113,7 +113,7 @@
                 <!-- Squares Section -->
                 <images name="background_pattern" name_friendly="Background Pattern" list="1" />
                   <!-- Timeline text fields -->
-                  <text name="timeline_title" name_friendly="Timeline Title" />
+                  <text name="timeline_title" name_friendly="Timeline Title (leave blank if you do not want a timeline on your site)" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
                   <text name="timeline_button_text" name_friendly="Timeline Button Text" />
                   <internal_link name="timeline_btn_links_to" name_friendly="Timeline Button Links To" />
