@@ -20,7 +20,7 @@
 					</div>
 					<div class="row">
 						{{ end-if }}
-						<div class="col-md-4 borderline">
+						<div class="col-md-{{ page.number_of_cols }} borderline">
 							<img src="{{ employee.employee_photo.getImage(700,700,crop) }}" alt="{{ employee.employee_first_name}} {{ employee.employee_last_name }} photo">
 							<h4>{{ employee.employee_first_name}} {{employee.employee_last_name}}</h4>
 							<p>{{ employee.employee_bio }}</p>
