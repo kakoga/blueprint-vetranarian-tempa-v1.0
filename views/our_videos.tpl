@@ -27,8 +27,8 @@
 						{{ end-each }}
 					</div>
 				</div>
-				<div class="desktop">
 					<div class="col-lg-3 col-md-4" >
+						<div class="desktop">
 						{{ include sectionlinks }}
 						{{ include inner-page-sidebar }}
 					</div>
