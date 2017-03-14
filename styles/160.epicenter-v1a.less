@@ -74,6 +74,7 @@ a.active {
 
 h1, h2, h3, h4, h5, h6 {
 	.heading-font();
+	color: @headings-color;
 	margin-bottom:.7em;
 }
 
@@ -346,7 +347,7 @@ header {
 	background-position: center center;
 	.background-cover;
 	text-align: center;
-	color: white;
+	color: @headings-color;
 	min-height:100vh;
 	.intro-text {
 		padding-top: 100px;
@@ -767,7 +768,7 @@ aside.clients {
 // Contact Section
 
 section#contact {
-	background-color: @gray-darker;
+	background-color: @gray;
 	background-position: center;
 	background-repeat: no-repeat;
 	.container {background:none;}
