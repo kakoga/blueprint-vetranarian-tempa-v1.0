@@ -10,8 +10,8 @@
 					<div class="cc" >
 						<div class="container">
 							<div class="intro-text">
-								<div class="intro-lead-in" style="font-family: '{{ clippings.homepage_header_font_style }}'; font-size: {{ clippings.hero_lead_in_font_size }}px;">{{slide.title}}</div>
-								<div class="intro-heading" style="font-family: '{{ clippings.homepage_header_font_style }}'; font-size: {{ clippings.hero_body_text_font_size }}px;">{{slide.second_line}}</div>
+								<div class="intro-lead-in" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_lead_in_font_size }}px;">{{slide.title}}</div>
+								<div class="intro-heading" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_body_text_font_size }}px;">{{slide.second_line}}</div>
 								{{ if {slide.button_text} }}
 								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
 								{{ end-if }}
@@ -28,8 +28,8 @@
 					<div class="cc" >
 						<div class="container">
 							<div class="intro-text">
-								<div class="intro-lead-in" style="font-family: '{{ clippings.homepage_header_font_style }}'; font-size: {{ clippings.hero_lead_in_font_size }}px;" >{{slide.title}}</div>
-								<div class="intro-heading" style="font-family: '{{ clippings.homepage_header_font_style }}'; font-size: {{ clippings.hero_body_text_font_size }}px;">{{slide.second_line}}</div>
+								<div class="intro-lead-in" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_lead_in_font_size }}px;" >{{slide.title}}</div>
+								<div class="intro-heading" style="font-family: {{ clippings.homepage_header_font_style }}; font-size: {{ clippings.hero_body_text_font_size }}px;">{{slide.second_line}}</div>
 								{{ if {slide.button_text} }}
 								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
 								{{ end-if }}

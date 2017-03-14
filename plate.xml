@@ -20,13 +20,13 @@
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <text name="hero_lead_in_font_size" name_friendly="Hero Lead-in Font Size (pixels)" required="1"><![CDATA[35]]></text>
             <text name="hero_body_text_font_size" name_friendly="Hero Body Text Font Size (pixels)" required="1"><![CDATA[60]]></text>
-            <text name="homepage_header_font_style" name_friendly="Homepage Hero Text Font Style" required="1"><![CDATA[Montserrat]]></text>
+            <text name="homepage_header_font_style" name_friendly="Homepage Hero Text Font Style" required="1"><![CDATA['Droid Serif', 'serif']]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
-            <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)" required="1"><![CDATA[18]]></text>
+            <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)" required="1"><![CDATA[24]]></text>
             <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
