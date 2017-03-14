@@ -18,9 +18,9 @@
         <!-- CLIPPINGS -->
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
-            <text name="hero_lead_in_font_size" name_friendly="Hero Lead-in Font Size (pixels)" required="1"><![CDATA[35]]></text>
-            <text name="hero_body_text_font_size" name_friendly="Hero Body Text Font Size (pixels)" required="1"><![CDATA[60]]></text>
-            <text name="homepage_header_font_style" name_friendly="Homepage Hero Text Font Style" required="1"><![CDATA['Droid Serif', 'serif']]></text>
+            <text name="hero_lead_in_font_size" name_friendly="Hero Lead-in Font Size (pixels)"><![CDATA[35]]></text>
+            <text name="hero_body_text_font_size" name_friendly="Hero Body Text Font Size (pixels)"><![CDATA[60]]></text>
+            <text name="homepage_header_font_style" name_friendly="Homepage Hero Text Font Style (separate multiple value with a comma)"><![CDATA[Droid Serif, serif]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
